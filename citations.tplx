@@ -1,0 +1,13 @@
+((*- extends 'articles.tplx' -*))
+
+((* block author *))
+\author{Your name}
+((* endblock author *))
+
+((* block title *))
+\title{Bioprinting Sponge}
+((* endblock title *))
+
+((* block bibliography *))\bibliographystyle{plain}
+\bibliography{ref}
+((* endblock bibliography *))
