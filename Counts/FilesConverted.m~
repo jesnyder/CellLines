@@ -1,0 +1,15 @@
+
+clear all
+clc
+
+
+
+values = [12.7, 45.4, 98.9, 26.6, 53.1];
+
+[ave,stdev] = CSVFunction(values)
+
+a = string('Originals/v01_PaCo.csv')
+b = string('BC/vBC_PatCount.csv')
+
+
+%[ave,stdev] = CSVFunction(values,a,b)
