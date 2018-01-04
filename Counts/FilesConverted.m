@@ -6,7 +6,8 @@ c = char(string('Originals/v01_CDC.csv'));
 
 z = char(string(['BC';'PC';'LC']));
 
-i = 1; while(i < length(z(:,1)))  
+i = 1; 
+while(i < length(z(:,1)))  
     rmdir((z(i,:)),'s');  
     mkdir((z(i,:)));
     i=i+1;
@@ -29,5 +30,3 @@ CSVFunction(a,char(string('LC/vLC_PatCount.csv')),i);
 CSVFunction(b,char(string('LC/vLC_PubCount.csv')),i);
 CSVCDCFunction(c,char(string('LC/vLC_CDC_IC.csv')),i,3);
 CSVCDCFunction(c,char(string('LC/vLC_CDC_DC.csv')),i,4);
-
-
