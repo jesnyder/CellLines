@@ -21,7 +21,7 @@ A = A(min(B(:,2)):end,:);
 
 % Create a table, then sort
 R = array2table([A]); 
-R = [R(:,1),R(:,5),R(:,3),R(:,2),R(:,4)]; 
+R = [R(:,1),R(:,3),R(:,2),R(:,4),R(:,5)]; 
 
 % Write the table to a csv
 writetable(R,b,'Delimiter',',');
