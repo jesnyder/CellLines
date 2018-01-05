@@ -1,6 +1,6 @@
 %Reformat csv to present the 
 
-function  y = CVSFunction(a,b,x,yearmin)
+function  y = CVSFunction(a,b,x)
 
 % Read in the csv
 B = csvread(a, 1, 0);
@@ -19,16 +19,19 @@ j=j+1;end; i=i+1; end
 
 A = A(min(B(:,2)):end,:);
 
+header = {'Year','Asian','Black','Hispanic','White','Unknown','Native American'};
+
 % Create a table, then sort
 R = array2table([A]); 
-R = [R(:,1),R(:,5),R(:,3),R(:,2),R(:,4)]; 
+R = [R(:,1),R(:,5),R(:,6),R(:,3),R(:,2),R(:,4)]; 
 
 % Write the table to a csv
 writetable(R,b,'Delimiter',',');
 
+yearmin = 2002;
 y = sumyearsfunc(table2array(R),yearmin);
 
-y = [y, 0];
+y = R;
 
 
 end
