@@ -1,4 +1,4 @@
-"2=Female Breast age adjusted,",MetricIndex,Year,All Races Rate,White Rate,Black Rate,Asian/Pacific Islander Rate,Hispanic Rate,American Indian/Alaska Native Rate
+CancerType,MetricIndex,Year,All Races Rate,White Rate,Black Rate,Asian/Pacific Islander Rate,Hispanic Rate,American Indian/Alaska Native Rate
 2,1,1999,135.1,138.1,117.3,86.8,99,76
 2,1,2000,132.9,135.9,114.9,83.7,99.7,70.7
 2,1,2001,132.3,135.5,114.5,85.4,96.1,74.1

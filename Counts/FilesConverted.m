@@ -10,7 +10,6 @@ z = char(string(['BC';'PC';'LC']));
 % Delete and make folders for each cancer type listed in z
 i = 1; while(i <= length(z(:,1))) rmdir((z(i,:)),'s');  mkdir((z(i,:))); i=i+1; end
 
-
 i = 2;  %Breast Cancer
 ym = 2002; while(ym < 2009)   
     Y=[]; fol = string(z(i-1,:));
@@ -23,6 +22,8 @@ ym = 2002; while(ym < 2009)
     if(ym == 2008) Y2 = Y; bargraph(Y1,Y2, 'Breast Cancer',fol); end
     ym = ym + 6; 
 end
+
+YBC = [Y1; Y2]
 
 i = 3; %Breast Cancer
 ym = 2002; while(ym < 2009)

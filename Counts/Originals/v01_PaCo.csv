@@ -1,4 +1,4 @@
-Gen,Eth,Dis,year,count(*)
+Gen,Eth,CancerType,year,count(*)
 1,1,1,2001,89
 1,2,1,2001,429
 1,2,2,2001,18
