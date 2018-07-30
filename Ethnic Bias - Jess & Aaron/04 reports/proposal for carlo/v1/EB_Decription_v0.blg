@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: EB_Decription_v0.aux
+The style file: unsrt.bst
+Database file #1: refs.bib
+Name 6 in "Tosetti, Patrizia and Hicks, Ramona R and Theriault, Elizabeth and Phillips, Anthony and Koroshetz, Walter and Draghia-Akli, and the Workshop Participants, Ruxandra" has a comma at the end for entry tosetti2013toward
+while executing---line 944 of file unsrt.bst
+You've used 18 entries,
+            1791 wiz_defined-function locations,
+            586 strings with 8268 characters,
+and the built_in function-call counts, 5137 in all, are:
+= -- 443
+> -- 300
+< -- 1
++ -- 107
+- -- 89
+* -- 432
+:= -- 833
+add.period$ -- 54
+call.type$ -- 18
+change.case$ -- 18
+chr.to.int$ -- 0
+cite$ -- 18
+duplicate$ -- 194
+empty$ -- 432
+format.name$ -- 89
+if$ -- 1096
+int.to.chr$ -- 0
+int.to.str$ -- 18
+missing$ -- 18
+newline$ -- 93
+num.names$ -- 18
+pop$ -- 21
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 104
+stack$ -- 0
+substring$ -- 420
+swap$ -- 51
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 48
+width$ -- 20
+write$ -- 200
+(There was 1 error message)

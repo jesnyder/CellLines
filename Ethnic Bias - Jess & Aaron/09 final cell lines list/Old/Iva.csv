@@ -1,0 +1,1213 @@
+Cell Line Name,cName,Status
+NCI-H1622,NCI-H1622,Contaminant
+PCI-22A, --,Contaminant
+PCI-22B, --,Contaminant
+RPMI-6666, --,Contaminant
+1156QE,1156QE,unresolved
+833-KE, --,unresolved
+1205Lu, --,Contaminant
+WM793B, --,Contaminant
+1301,CCRF-CEM,Derivative Line
+6T-CEM,CCRF-CEM,Derivative Line
+AG-F,CCRF-CEM,Contaminant
+CCRF-CEM,CCRF-CEM,Parental
+CEM/C1,CCRF-CEM,Derivative Line
+CEM/C2,CCRF-CEM,Derivative Line
+CO,CCRF-CEM,Contaminant
+EU-7,CCRF-CEM,Contaminant
+MKB-1,CCRF-CEM,Contaminant
+RC-2A,CCRF-CEM,Contaminant
+UTMB-460,CCRF-CEM,Contaminant
+WSU-ALCL,CCRF-CEM,Contaminant
+143.98.2,HOS,Contaminant? Requires determination of provenance.
+143B,HOS,Derivative Line
+143B PML BK TK,HOS,Derivative Line
+143B/TK^(-)neo^(R),HOS,Derivative Line
+HOS,HOS,Parental
+HTK,HOS,Contaminant
+KHOS/NP,HOS,Derivative Line
+KHOS-240S,HOS,Derivative Line
+KHOS-312H,HOS,Derivative Line
+MNNG/HOS Cl 5,HOS,Derivative Line
+184A1,184A1,Parental
+184B5,184A1,Derivative Line
+1A2, --,Contaminant? Requires determination of provenance.
+GK-5, --,Contaminant? Requires determination of provenance.
+HuNS1, --,Contaminant? Requires determination of provenance.
+1B2C6,2C6,Derivative Line
+1C3D3,2C6,Derivative Line
+1C3IKEI,2C6,Derivative Line
+2B8,Jiyoye,Derivative Line
+HKB-11,Jiyoye,Parental
+HS-Sultan,Jiyoye,Contaminant
+Jiyoye,Jiyoye,Parental
+P3HR-1,Jiyoye,Derivative Line
+P-3J,Jiyoye,Contaminant? Requires determination of provenance.
+222,PA-1,Contaminant
+CH1,PA-1,Contaminant
+CH1CisR,PA-1,Contaminant
+CHI52,PA-1,Contaminant
+LK-1,PA-1,Contaminant
+PA-1,PA-1,Contaminant
+2474/90,HT-29,Contaminant
+2957/90,HT-29,Contaminant
+3051/80,HT-29,Contaminant
+ARO,HT-29,Contaminant
+2C6,2C6,Parental
+1G2,Jiyoye,Derivative Line
+20B8,Jiyoye,Derivative Line
+ARO81-1,HT-29,Contaminant
+CX-1,HT-29,Derivative Line
+HT-29,HT-29,Parental
+KAK1,HT-29,Contaminant
+KAT10,HT-29,Contaminant
+KAT4,HT-29,Contaminant
+KAT5,HT-29,Contaminant
+KAT50,HT-29,Contaminant
+KAT7,HT-29,Contaminant
+Mawi,HT-29,Contaminant
+MRO87-1,HT-29,Contaminant
+MV522,HT-29,Contaminant
+MV522/MDR1,HT-29,Contaminant
+MV522/MRP,HT-29,Contaminant
+RO-D81-1,HT-29,Contaminant
+WiDr,HT-29,Contaminant
+2563,HeLa,Contaminant
+ACC2,HeLa,Contaminant
+ACC3,HeLa,Contaminant
+ACCM,HeLa,Contaminant
+ADLC-5M2,HeLa,contaminant
+AKI,HeLa,Contaminant
+AO,HeLa,Contaminant
+AV3,HeLa,Contaminant
+BCC1/KMC,HeLa,Contaminant
+BrCA 5,HeLa,Contaminant
+BT-B,HeLa,Derivative Line
+BU25 TK-,HeLa,Derivative Line
+C16,HeLa,Contaminant
+CaOV,HeLa,Contaminant
+CaVe,HeLa,Contaminant
+Chang Liver,HeLa,Contaminant
+clone 1-5c,HeLa,Contaminant
+Clone 1-5c-4,HeLa,Contaminant
+CMP,HeLa,Contaminant
+CMPII C2,HeLa,Contaminant
+D18T,HeLa,Contaminant
+D98/AH,HeLa,Contaminant
+D98/AH2,HeLa,Contaminant? Requires determination of provenance.
+D98/AH2 Clone B,HeLa,Contaminant
+DAPT,HeLa,Contaminant
+Det30A,HeLa,Contaminant
+Detroit 30A,HeLa,Contaminant
+Detroit 6,HeLa,Contaminant
+Detroit 98,HeLa,Contaminant
+Detroit 98/AG,HeLa,Contaminant
+Detroit 98/AH-2,HeLa,Contaminant
+Detroit 98/AH-R,HeLa,Contaminant
+Detroit 98s,HeLa,Contaminant
+EB33,HeLa,Contaminant
+ED27,HeLa,Contaminant
+ElCo,HeLa,Contaminant
+EPLC3-2M1,HeLa,Contaminant
+EPLC-65,HeLa,Contaminant
+ESP1,HeLa,Contaminant
+EUE,HeLa,Contaminant
+F255A4,HeLa,Contaminant
+FL,HeLa,Contaminant
+G-11,HeLa,Contaminant
+GH329,HeLa,Derivative Line
+GH354,HeLa,Derivative Line
+GIRARDI HEART,HeLa,Derivative Line
+GLC-82,HeLa,Contaminant
+H1HeLa,HeLa,Derivative Line
+H-494,HeLa,Contaminant
+HBT-3,HeLa,Contaminant
+HBT-39b,HeLa,Contaminant
+HBT-E,HeLa,Contaminant
+HCE,HeLa,Contaminant
+HEK,HeLa,Contaminant
+HEK/HRV,HeLa,Contaminant
+HeLa,HeLa,Parental
+HeLa [Chang Liver],HeLa,Derivative Line
+HeLa 229,HeLa,Derivative Line
+HeLa AG,HeLa,Derivative Line
+HeLa CD4+C,HeLa,Derivative Line
+HeLa CD4+Clone1022,HeLa,Derivative Line
+HeLa NRI,HeLa,Derivative Line
+HeLa S3,HeLa,Derivative Line
+HeLa S3(sc),HeLa,Derivative Line
+HeLa TG,HeLa,Derivative Line
+HeLa.P3,HeLa,Derivative Line
+HeLa.S3,HeLa,Derivative Line
+HeLa/SF,HeLa,Derivative Line
+HeLa229,HeLa,Derivative Line
+HeLa9903,HeLa,Derivative Line
+HeLa-CD4-LTR-??-gal,HeLa,Derivative Line
+HeLaNR1,HeLa,Derivative Line
+HeLaRC32 [HeRC32],HeLa,Derivative Line
+HELA-S3,HeLa,Derivative Line
+HEp-2,HeLa,Contaminant
+Hep2 (Clone 2B),HeLa,Contaminant
+Hep-2C,HeLa,Contaminant
+HES,HeLa,Contaminant
+HL111783,HeLa,Contaminant
+HLtat,HeLa,Derivative Line
+HMV-1,HeLa,Contaminant
+HPC36M,HeLa,Contaminant
+HR5,HeLa,Derivative Line
+HR5-CL11,HeLa,Derivative Line
+HSG,HeLa,Contaminant
+HSG-AZA1,HeLa,Contaminant
+HSG-AZA3,HeLa,Contaminant
+HSGc-C5,HeLa,contaminant
+HSY,HeLa,Contaminant
+HuKo39,HeLa,Contaminant
+HuL-1,HeLa,Contaminant
+Hut,HeLa,Contaminant
+IMC-2,HeLa,Contaminant
+IMC-3,HeLa,Contaminant
+IMC-4,HeLa,Contaminant
+Intestine 407,HeLa,Contaminant
+J-111,HeLa,Contaminant
+J96,HeLa,Contaminant
+JHC,HeLa,Contaminant
+JHT,HeLa,Contaminant
+JTC-17,HeLa,Contaminant
+JTC-3,HeLa,Contaminant
+KB,HeLa,Contaminant
+KB-3-1,HeLa,Derivative Line
+KB-V1,HeLa,Derivative Line
+KP-P1,HeLa,Contaminant
+KU7,HeLa,Contaminant
+L-132,HeLa,Contaminant
+L-41,HeLa,Contaminant
+LED-Ti,HeLa,Contaminant
+LU,HeLa,Contaminant
+LU 106,HeLa,Contaminant
+M10T,HeLa,Contaminant
+MA-160,HeLa,Contaminant
+MaTu,HeLa,Contaminant
+MC-4000,HeLa,Contaminant
+Minnesota EE,HeLa,Contaminant
+MR10-1,HeLa,Derivative Line
+MR1-3,HeLa,Derivative Line
+MR6,HeLa,Derivative Line
+MS,HeLa,Contaminant
+MT-1,HeLa,Contaminant
+NCTC 2544,HeLa,Contaminant
+NCTC 3075,HeLa,Contaminant
+OE,HeLa,Contaminant
+OF,HeLa,Contaminant
+OST,HeLa,Contaminant
+PC-93,HeLa,Contaminant
+RPMI 4788,HeLa,Contaminant
+SA4,HeLa,Contaminant
+SBC-2,HeLa,Contaminant
+SBC-7,HeLa,Contaminant
+SH-2,HeLa,Contaminant
+SH-3,HeLa,Contaminant
+SQ-5,HeLa,Contaminant
+T-1,HeLa,Contaminant
+T1,HeLa,Contaminant
+T-9,HeLa,Contaminant
+TuWi,HeLa,Contaminant
+WISH,HeLa,Contaminant
+WKD,HeLa,Contaminant
+Wong-Kilbourne,HeLa,Contaminant
+WRL 68,HeLa,Contaminant
+90.74,293,Derivative Line
+293,293,Derivative Line
+293 c18,293,Derivative Line
+293 EcR Shh,293,Derivative Line
+293 SUS,293,Derivative Line
+293/CHE-Fc,293,Derivative Line
+293/CrmA,293,Derivative Line
+293/SF,293,Derivative Line
+293gp,293,Derivative Line
+293T,293,Derivative Line
+293T GNE,293,Derivative Line
+293T/17,293,Derivative Line
+2A,293,Derivative Line
+2V6.11 [JHU-67],293,Contaminant? Requires determination of provenance.
+ANJOU 65,293,Derivative Line
+GFPu-1,293,Derivative Line
+HEK 293S GnTI-,293,Derivative Line
+HEK-293.2 sus,293,Derivative Line
+HKb20,293,Derivative Line
+PEAKrapid,293,Derivative Line
+ProPak-A.52 Clone #5,293,Derivative Line
+ProPakA.6,293,Derivative Line
+ProPak-X.36,293,Derivative Line
+SODK1,293,Contaminant? Requires determination of provenance.
+WSS-1,293,Derivative Line
+340-RPE-11tv,hTERT RPE-1,Contaminant? Requires determination of provenance.
+hTERT RPE-1,hTERT RPE-1,Parental
+3A(tPA-30-1),3A(tPA-30-1),Parental
+3A-Sub E,3A(tPA-30-1),Derivative Line
+41M-CISR,A2780,Contaminant
+A2780,A2780,Contaminant
+501A,501A,Contaminant? Requires determination of provenance.
+624 mel,624 mel,Contaminant? Requires determination of provenance.
+633,A549,Contaminant? Requires determination of provenance.
+A549,A549,Parental
+A549SF,A549,Derivative Line
+JHU028,A549,Contaminant
+RO-H85-1,647-V,Contaminant
+647-V,647-V,Parental
+C13,ME-130,Contaminant
+A2008,ME-130,Contaminant
+OV2008,ME-130,Contaminant
+ME-130,ME-130,Parental
+A-204, --,Contaminant? Requires determination of provenance.
+Hs 586.T, --,Contaminant? Requires determination of provenance.
+A3,Jurkat,Derivative Line
+D1.1,Jurkat,Derivative Line
+H33HJ-JA1,Jurkat,Derivative Line
+I 2.1,Jurkat,Derivative Line
+I 9.2,Jurkat,Derivative Line
+J.gamma1,Jurkat,Derivative Line
+J.gamma1.wt,Jurkat,Derivative Line
+J-111,Jurkat,Contaminant? Requires determination of provenance.
+J45.01,Jurkat,Derivative Line
+JM,Jurkat,Derived from same patient
+J-RT3-T3-5,Jurkat,Derivative Line
+Jurkat (Clone E6-1),Jurkat,Parental
+MDS,Jurkat,Contaminant
+MHH-225,Jurkat,Contaminant
+P116,Jurkat,Derivative Line
+A373-C6,A-375,Derivative Line
+A-375,A-375,Parental
+DRO90-1,A-375,Contaminant
+DRO,A-375,Contaminant
+A-431,A-431,Derivative Line
+A431NS,A-431,Derivative Line
+A7,A7,Parental?
+M2,A7,Contaminant? Requires determination of provenance.
+PMWK,A7,Contaminant? Requires determination of provenance.
+AC-1M32,ACH-1P,Derivative Line
+AC-1M46,ACH-1P,Derivative Line
+AC-1M59,ACH-1P,Derivative Line
+ACH-1P,ACH-1P,Parental
+AC-1M81,ACH-1P,Derivative Line
+AC-1M88,ACH-1P,Derivative Line
+ACCNS, --,Contaminant
+AHH-1,AHH-1,Contaminant? Requires determination of provenance.
+RPMI 1788,RPMI 1788,Parental
+TDL-3,RPMI 1788,contaminant
+Alexander , --,Nomenclature
+PLC/PRF/5,PLC/PRF/5,Nomenclature
+AML-193,AML-193,Parental
+SR-91,AML-193,Contaminant
+Amsalem, --,Contaminant? Requires determination of provenance.
+HD-MAR, -- ,Contaminant? Requires determination of provenance.
+HD-Mar2, -- ,Contaminant? Requires determination of provenance.
+ARH-77,ARH-77,Parental
+C1R-B7,ARH-77,Derivative Line
+C1R-Neo,ARH-77,Derivative Line
+C1R-sB7,ARH-77,Derivative Line
+HMy2.CIR [HMy2.C1R],ARH-77,Derivative Line
+ASF-4-1,ASF-4-1,Derived from same patient
+ASF-4-2,ASF-4-1,Derived from same patient
+AsPC-1,AsPC-1,Parental
+MPanc-96,AsPC-1,Contaminant
+ATRFLOX,ATRFLOX,Derivative Line
+HCT 116,HCT 116,Derivative Line
+AU565,AU565,Derived from same patient
+SK-BR-3,SK-BR-3,Derived from same patient
+AZ-521,AZ-521,Contaminant
+HuTu 80,HuTu 80,Parental
+B2-17,U-251 MG,Derivative Line
+KNS-89,U-251 MG,Derivative Line
+SNB-19,U-251 MG,Derivative Line
+TK-1,U-251 MG,Contaminant
+U-251 MG,U-251 MG,Parental
+U-251 MG (KO),U-251 MG,Derivative Line
+BB65-RCC, --,Contaminant
+LB996-RCC, --,Contaminant
+BBM,BBM,Derivative Line
+BEAS-2B,BEAS-2B,Parental
+BZR,BZR,Derivative Line
+BE(2)-C,SK-N-BE(2),Derivative Line
+BE(2)-M17,SK-N-BE(2),Derivative Line
+SK-N-BE(2),SK-N-BE(2),Parental
+BE,MDA-MB-231,Contaminant
+MDA-MB-231,MDA-MB-231,Parental
+BeWo,BeWo,Parental
+Hs 630.T,BeWo,Contaminant? Requires determination of provenance.
+JEG-3,BeWo,Derivative Line
+BG-1,MCF-7,Contaminant
+hTERT-EEC,MCF-7,Contaminant
+KPL-1,MCF-7,Contaminant
+MCF-7,MCF-7,Parental
+BIC-1,SW 480,Contaminant
+OC-314,SW 480,not confirmed
+OC-315,SW 480,not confirmed
+OC-316,SW 480,not confirmed
+SW 480,SW 480,Parental
+SW 527,SW 480,Contaminant
+SW 598,SW 480,Contaminant
+SW 608,SW 480,Contaminant
+SW 613,SW 480,Contaminant
+SW 620,SW 480,Parental
+SW 732,SW 480,Contaminant
+SW 733,SW 480,Contaminant
+Bob,Bob,Derivative Line
+SerBob,Bob,Derivative Line
+BSCC-93,DJM-1,Contaminant
+DJM-1,DJM-1,Parental
+C2BBe1,Caco-2,Derivative Line
+Caco-2,Caco-2,Parental
+C32,C32,Derivative Line
+C32TG,C32TG,Derivative Line
+SK-OV-4,C-33A,Contaminant
+SK-OV-6,C-33A,Contaminant
+C-33A,C-33A,Parental
+C378,RD-ES,Contaminant? Requires determination of provenance.
+C386,RD-ES,Contaminant? Requires determination of provenance.
+C430,RD-ES,Contaminant? Requires determination of provenance.
+C-433,RD-ES,Contaminant
+RD-ES,RD-ES,Parental
+C38,C38,Contaminant? Requires determination of provenance.
+IB3-1,IB3-1,Contaminant? Requires determination of provenance.
+S9,S9,Contaminant? Requires determination of provenance.
+C3A,Hep G2,Derivative Line
+H7D7A,Hep G2,Contaminant
+H7D7B,Hep G2,Contaminant
+H7D7C,Hep G2,Contaminant
+H7D7D,Hep G2,Contaminant
+Hep G2,Hep G2,Parental
+C-4 II,C-4 II,Derived from Same patient
+C-4 I, --,Derived from Same patient
+Hs 636.T, --,Contaminant? Requires determination of provenance.
+Ca9-22,Ca9-22,Parental
+KOSC-3,Ca9-22,Contaminant
+Caki-1,Caki-1,Parental
+R1192,Caki-1,Contaminant? Requires determination of provenance.
+SLK,Caki-1,Contaminant
+Calu-1,Calu-1,Parental
+W5-6, --,Contaminant? Requires determination of provenance.
+Caov-2,NIH:OVCAR-2,Contaminant
+NIH:OVCAR-2,NIH:OVCAR-2,Parental
+CCD-973Sk, --,Contaminant? Requires determination of provenance.
+RS4;11,RS4;11,Parental
+CCRF-HSB-2,CCRF-SB,Derived from same patient
+CCRF-SB,CCRF-SB,Derived from same patient
+CGTH-W-1,SW 579,Derivative Line
+SW 579,SW 579,Parental
+CHL-1,RPMI 7932,Derivative Line
+COLO 699,RPMI 7932,Contaminant
+COLO 699N,RPMI 7932,Contaminant
+COLO 738,RPMI 7932,Contaminant
+HMCB,RPMI 7932,Contaminant
+RPMI 7932,RPMI 7932,Parental
+GI-LI-N,IMR-32,Contaminant
+IMR-32,IMR-32,Parental
+IMR-5,IMR-32,Contaminant
+CHP-100,IMR-32,Contaminant
+CHP-212,CHP-212,Derived from same patient
+NB9,NB9,Derived from same patient
+CHP-234, --,Contaminant
+CJM,T3M-1 Clone2,Derived from same patient
+T3M-1 Cl-10,T3M-1 Clone2,Derived from same patient
+T3M-1 Clone2,T3M-1 Clone2,Derived from same patient
+CJM C14,T3M-1 Clone2,Derived from same patient
+CJM C15,T3M-1 Clone2,Derived from same patient
+CJM C16,T3M-1 Clone2,Derived from same patient
+CJM C17,T3M-1 Clone2,Derived from same patient
+CJM C18,T3M-1 Clone2,Derived from same patient
+CLN H11.4, --,Common fusion partner
+CLNH5.5, --,Common fusion partner
+Clone 15 HL-60,HL-60,Derivative Line
+HIMEG-1,HL-60,Contaminant
+HL-60,HL-60,Parental
+HL-60(S),HL-60,Derivative Line
+HL-60/MX1,HL-60,Derivative Line
+HL-60/MX2,HL-60,Derivative Line
+HL-60-R2,HL-60,Derivative Line
+HL-60RG,HL-60,Derivative Line
+HP100-1,HL-60,Derivative Line
+HP50-2,HL-60,Derivative Line
+P39/TSU,HL-60,Contaminant
+PLB-985,HL-60,Contaminant
+RED-3,HL-60,Contaminant
+YJ,HL-60,Contaminant
+CMK,CMK,Parental
+CMK-11-5,CMK-11-5,Derivative Line
+CMK-86,CMK-86,Derivative Line
+CNDT2, --,Contaminant
+COLO 201,COLO 201,Parental
+COLO 205,COLO 201,Derived from same patient
+COLO 206F,COLO 201,Derived from same patient
+CoLo-TC,COLO 201,Contaminant
+NS-3,COLO 201,Contaminant
+COLO 320,COLO 320,Parental
+COLO 320DM,COLO 320,Derivative Line
+COLO 320HSR,COLO 320,Derivative Line
+COLO 587,COLO 320,Contaminant
+COLO 677,RPMI 8226,Contaminant
+COLO 775,RPMI 8226,Contaminant
+RPMI 8226,RPMI 8226,Parental
+COLO 684,COLO 684,Contaminant
+COLO 685,COLO 684,Parental
+COLO 704,COLO 684,Derived from same patient
+COLO 794,COLO 794,Parental
+COLO 800,COLO 794,Derived from same patient
+COLO 818,COLO 794,Contaminant
+COLO 829,COLO 829,Contaminant
+COLO 839,COLO 839,Parental
+COLO 849,COLO 849,Contaminant
+COLO 853,COLO 853,Contaminant
+COLO 857,COLO 839,Derived from same patient
+COLO 858,COLO 839,Derived from same patient
+COV413A,COV413A,Derived from same patient
+COV413B,COV413B,Derived from same patient
+MOLT-15,CTV-1,Contaminant
+CTV-1,CTV-1,Parental
+D422T,GS-109-V-20,Contaminant? Requires determination of provenance.
+GS-109-V-20,GS-109-V-20,Parental
+DD,K-562,Contaminant
+K-562,K-562,Parental
+K-562/ADM,K-562,Derivative Line
+K-562/Adr,K-562,Derivative Line
+K-562/MTX-2,K-562,Derivative Line
+K-562/Vin,K-562,Derivative Line
+KO51,K-562,Contaminant
+P2UR/K-562,K-562,Derivative Line
+PC-MDS,K-562,Contaminant
+RM-10,K-562,Contaminant
+RS-1,K-562,Contaminant
+SAM-1,K-562,Contaminant
+SPI-801,K-562,Contaminant
+SPI-802,K-562,Contaminant
+T-33,K-562,Contaminant
+TI-1,K-562,Contaminant
+DERL-2,DERL-2,Derived from same patient
+DERL-7,DERL-2,Derived from same patient
+DFCI-LU011,HCC4006,Contaminant? Requires determination of provenance.
+HCC4006,HCC4006,Parental
+DLD-1,HCT-15,Contaminant?
+HCT-15,HCT-15,Parental
+HCT-8,HCT-15,Contaminant?
+HRT-18,HCT-15,Contaminant?
+OS 187,HCT-15,Contaminant
+DM12,UM-SCC-1,Contaminant
+UM-SCC-1,UM-SCC-1,Parental
+DM14,UM-SCC-1,Contaminant
+T409,UM-SCC-1,Contaminant
+Tu-167,UM-SCC-1,Contaminant
+JMAR,UM-SCC-1,Contaminant
+NOSE06,DOV-13,Contaminant
+NOSE07,DOV-13,Contaminant
+DOV-13,DOV-13,Parental
+BM-1604,DU 145,Contaminant
+DU 145,DU 145,Parental
+ND-1,DU 145,Contaminant
+EB1,EB1,Contaminant
+EB2,EB2,Contaminant
+ECV-304,T24,Contaminant
+EJ-1,T24,Contaminant
+T24,T24,Parental
+T24/83,T24,Derivative Line
+EFM-192A,EFM-192A,Derivative Line
+EFM-192B,EFM-192B,Derivative Line
+EFM-192C,EFM-192C,Derivative Line
+EL 1,U-937,Contaminant? Requires determination of provenance.
+JOSK-I,U-937,Contaminant
+JOSK-K,U-937,Contaminant
+JOSK-M,U-937,Contaminant
+JOSK-S,U-937,Contaminant
+MOBS-1,U-937,Contaminant
+PH,U-937,Contaminant? Requires determination of provenance.
+SAML-1,U-937,Contaminant
+SC,U-937,Contaminant? Requires determination of provenance.
+TUR,U-937,Derivative Line
+U-937,U-937,Parental
+U-937 DE-4,U-937,Derivative Line
+YAA,U-937,Contaminant
+YAP,U-937,Contaminant
+EM-2,EM-2,Derived from same patient
+EM-3,EM-3,Derived from same patient
+EOL-1,EOL-1,Derived from same patient
+EOL-3,EoL-3,Derived from same patient
+EVLC2, --,Contaminant
+JHU013,FaDu,Contaminant
+FaDu,FaDu,Parental
+FHs 74 Int,FHs 74 Int,Parental
+Hs 66.Sk/Mu, --,Contaminant? Requires determination of provenance.
+Hs 674.T/cc, --,Contaminant? Requires determination of provenance.
+Flow1000,Flow1000,Parental
+Flow5000,Flow1000,Contaminant
+Flow6000,Flow1000,Contaminant
+Flow3000,Flow3000,Parental
+Flow7000,Flow3000,Contaminant
+FTC-133,FTC-133,Derived from same patient
+FTC-236,FTC-236,Derived from same patient
+FTC-238,FTC-238,Derived from same patient
+G112,G112,Parental
+G122,G112,Contaminant? Requires determination of provenance.
+G118,G118,Parental
+G141,G118,Contaminant? Requires determination of provenance.
+G142,G118,Contaminant? Requires determination of provenance.
+G44,G44,Parental
+G96,G44,Contaminant? Requires determination of provenance.
+GLAG-66,GLAG-66,Parental
+K1,GLAG-66,Contaminant
+K2,GLAG-66,Contaminant
+GMC0001,GMC0001,Derived from same patient
+GMC0002,GMC0001,Derived from same patient
+GMC0005,GMC0005,Derived from same patient
+GMC0012,GMC0005,Derived from same patient
+GMC0014,GMC0014,Derived from same patient
+GMC0015,GMC0014,Derived from same patient
+GMC0017,GMC0017,Derived from same patient
+GMC0022,GMC0017,Derived from same patient
+GMC0020,GMC0020,Derived from same patient
+GMC0024,GMC0020,Derived from same patient
+GMC0025,GMC0025,Derived from same patient
+GMC0027,GMC0025,Derived from same patient
+GMC0028,GMC0028,Derived from same patient
+GMC0029,GMC0028,Derived from same patient
+GMC0030,GMC0030,Derived from same patient
+GMC0031,GMC0030,Derived from same patient
+GOS-3,U-343 MG,Contaminant
+U-343 MG,U-343 MG,Parental
+GP2d,GP2d,Derived from same patient
+GP5d,GP5d,Derived from same patient
+ST,TANOUE,Derivative Line
+GR-ST,TANOUE,Derivative Line
+Tanoue,TANOUE,Parental
+GTL-16,GTL-16,Derivative Line
+MKN-45,MKN-45,Derivative Line
+H69AR,NCI-H69,Derivative Line
+NCI-H249,NCI-H69,Contaminant
+NCI-H592,NCI-H69,Contaminant
+NCI-H69,NCI-H69,Parental
+NCI-H69/CPR,NCI-H69,Derivative Line
+NCI-H69/LX10,NCI-H69,Derivative Line
+NCI-H69/LX20,NCI-H69,Derivative Line
+NCI-H69/LX4,NCI-H69,Derivative Line
+NCI-H69VCR/R,NCI-H69,Derivative Line
+NCI-N592,NCI-H69,Contaminant
+H9 T,HuT 78,Derivative Line
+H9/HTLV-IIIB,HuT 78,Derivative Line
+HuT 78,HuT 78,Parental
+HAAE-2, --,Contaminant? Requires determination of provenance.
+HFAE-2, --,Contaminant? Requires determination of provenance.
+HAAE-26, --,Contaminant? Requires determination of provenance.
+HIVE-26, --,Contaminant? Requires determination of provenance.
+HPAE-26, --,Contaminant? Requires determination of provenance.
+HPVE-26, --,Contaminant? Requires determination of provenance.
+HBL-100, --,Contaminant
+HCC1007 BL,HCC1008,Derived from same patient
+HCC1008,HCC1008,Derived from same patient
+HCC12, --,Contaminant? Requires determination of provenance.
+NCI-H1155, --,Contaminant? Requires determination of provenance.
+HCC1428,HCC1428,Derived from same patient
+HCC1428 BL,HCC1428,Derived from same patient
+HCC1599,HCC1599,Derived from same patient
+HCC1599 BL,HCC1599 BL,Derived from same patient
+HCC1937,HCC1937,Derived from same patient
+HCC1937 BL,HCC1937,Derived from same patient
+HCC1954,HCC1954,Derived from same patient
+HCC1954 BL,HCC1954,Derived from same patient
+HCC48,HSC-42,Contaminant? Requires determination of provenance.
+HSC-41,HSC-42,Contaminant
+HSC-42,HSC-42,Parental
+SH-10-TC,HSC-42,Contaminant? Requires determination of provenance.
+HCC60,NCI-H23,Contaminant? Requires determination of provenance.
+NCI-H23,NCI-H23,Contaminant? Requires determination of provenance.
+HCC1367, --,Contaminant? Requires determination of provenance.
+HCC985, --,Contaminant? Requires determination of provenance.
+HCEC-12,HCEC-12,Parental
+HCEC-B4G12,HCEC-12,Derivative Line
+HCu-10,Hcu-10,Contaminant
+HCu-18,Hcu-10,Contaminant
+HCu-22,Hcu-10,Contaminant
+HCu-27,Hcu-10,Contaminant
+HCu-33,Hcu-10,Contaminant
+HCu-37,Hcu-10,Contaminant
+HCu-39,Hcu-10,Contaminant
+HCV-29,HCV-29,Parental
+Hu1734,HCV-29,Contaminant
+CCD-1059Sk,CCD-1059Sk,Contaminant? Requires determination of provenance.
+HDQ-P1,HDQ-P1,Contaminant? Requires determination of provenance.
+HEC-1,HEC-1,Derivative Line
+HEC-1-A,HEC-1,Derivative Line
+HEC-1-B,HEC-1,Derivative Line
+NCI-H1573,HEC-1,Contaminant? Requires determination of provenance.
+HEC-155,HEC-155,Parental
+HEC-180,HEC-155,Contaminant
+Dami,HEL,Contaminant
+HEL,HEL,Parental
+HEL 92.1.7,HEL 92.1.7,Nomenclature
+HE-LU(Rifkin), --,Contaminant? Requires determination of provenance.
+HE-SK, --,Contaminant? Requires determination of provenance.
+Hs 894(B).T, --,Contaminant? Requires determination of provenance.
+Hep 3B,Hep 3B,Parental
+Hep 3B2.1-7,Hep 3B,Derivative Line
+REPC,Hep 3B,Contaminant
+HFL9t,HFL9t,Derived from same patient
+HFSK9t,HFL9t,Derived from same patient
+HFL-AE-VII,HFL-AE-VII,Derived from same patient
+HFLI-AE-VII,HFL-AE-VII,Derived from same patient
+HFSKF-AE-VII,HFL-AE-VII,Derived from same patient
+HIAE-101, --,Contaminant? Requires determination of provenance.
+HIVE-101, --,Contaminant? Requires determination of provenance.
+HIAE-38, --,Contaminant? Requires determination of provenance.
+HIVE-38, --,Contaminant? Requires determination of provenance.
+HIAE-55, --,Contaminant? Requires determination of provenance.
+HIVE-55, --,Contaminant? Requires determination of provenance.
+HIAE-65, --,Contaminant? Requires determination of provenance.
+HIVE-65, --,Contaminant? Requires determination of provenance.
+HIAE-78, --,Contaminant? Requires determination of provenance.
+HIVE-78, --,Contaminant? Requires determination of provenance.
+EH,HK,Contaminant
+HK,HK,Parental
+HKB-1, --,Contaminant
+HKMUS,SKG-II-SF,Contaminant
+HKMUS-SF,SKG-II-SF,Contaminant
+SKG-II,SKG-II-SF,Contaminant? Requires determination of provenance.
+SKG-II-SF,SKG-II-SF,Parental
+HLE,HLE,Derived from same patient
+HLF,HLF,Derived from same patient
+HM7,LS-180,Derivative Line
+HM3,LS-180,Derivative Line
+LS-174T,LS-180,Derivative Line
+LS-180,LS-180,Parental
+LSHM7, --,Contaminant
+MT-3,MT-3,Contaminant
+HLC-1, --,Contaminant? Requires determination of provenance.
+HMC-1-8, --,Contaminant? Requires determination of provenance.
+HPAC,HPAC,Parental
+KCI-MOH1,HPAC,Contaminant
+HPB-ALL,HPB-ALL,Parental
+HPB-MLT,HPB-ALL,Contaminant
+Hs 1.Int,Hs 1,Derived from same patient?
+Hs 1.Lu,Hs 1,Derived from same patient?
+Hs 1.Sk/Mu,Hs 1,Derived from same patient?
+Hs 1.Tes,Hs 1,Derived from same patient?
+A101D,A101D,Derived from same patient
+Hs 294.T,A101D,Derived from same patient
+Hs 412.Lu, --,Contaminant? Requires determination of provenance.
+SUSM-1,SUSM-1,Parental
+Hs 414.T,Hs 93.T,unresolved
+Hs 93.T,Hs 93.T,unresolved
+Hs 791.Sk, --,Contaminant? Requires determination of provenance.
+Hs 860.T,Hs 860.T,parental
+Hs 870.T, --,Contaminant? Requires determination of provenance.
+Hs 848.Sk, --,Contaminant? Requires determination of provenance.
+Hs 848.T, --,Contaminant? Requires determination of provenance.
+Hs 853.T, --,Contaminant? Requires determination of provenance.
+Hs 868.T,Hs 868.T,parental
+Hs 910.Thm, --,Contaminant? Requires determination of provenance.
+Hs 888.Lu,Hs 888,Derived from same patient
+Hs 888.Lu,Hs 888,Derived from same patient
+Hs 888.Sk,Hs 888,Derived from same patient
+Hs 888.T,Hs 888,Derived from same patient
+Hs 894(A).T,Hs 888,Derived from same patient
+Hs 894(C).T,Hs 888,Derived from same patient
+Hs 894(D).T,Hs 888,Derived from same patient
+Hs 894(E).Lu, --,Contaminant? Requires determination of provenance.
+Hs 899(A).T, --,Contaminant? Requires determination of provenance.
+Hs 899(B).T, --,Contaminant? Requires determination of provenance.
+Hs 899(C).T,Hs 888,Derived from same patient
+Hs 899(D),Hs 888,Derived from same patient
+Hs 906(A).T, --,unresolved
+Hs 906(B).T, --,unresolved
+Hs 934.T, --,unresolved
+Hs 935.T, --,Contaminant? Requires determination of provenance.
+HP,HT-1080,Derivative Line
+HT-1080,HT-1080,Parental
+HX,HT-1080,Derivative Line
+PEAZ-1,HT-1080,Contaminant
+HTOA,HTOA,Contaminant? Requires determination of provenance.
+JHH-1,JHH-1,Contaminant? Requires determination of provenance.
+HU-3,HU-3,Parental
+MB-02,HU-3,Contaminant
+HUH-7,HuH-7,Parental
+Huh-7/Rep,HuH-7,Derivative Line
+JHH4-9-4, --,Contaminant? Requires determination of provenance.
+IA-5, --,unresolved
+IA-LM, --,unresolved
+IGR-37,IGR-37,Derived from same patient
+IGR-39,IGR-39,Derived from same patient
+IGROV-1,IGROV-1,Parental
+OVI-P,IGROV-1,Contaminant
+IHH-4,IHH-4,Parental
+TMH-1,IHH-4,Contaminant
+IM-95,IM-95,Derivative Line
+IM-95m,IM-95m,Derivative Line
+ECC-1,Ishikawa,Contaminant? Requires determination of provenance.
+Ishikawa,Ishikawa,Parental
+IST-1,SK-OV-3,Contaminant
+Ska-3-68,SK-OV-3,Contaminant
+SK-OV-3,SK-OV-3,Parental
+Hu609,J82,Contaminant
+J82,J82,Parental
+JAR, --,unresolved
+NOR-P1, --,unresolved
+JEG3,JEG3,Parental
+TEC61,JEG3,Contaminant
+JHU012,JHU022,Contaminant
+JHU022,JHU022,Parental
+JURL-MK1,JURL-MK1,Derived from same patient
+JURL-MK2,JURL-MK1,Derived from same patient
+KE-37,KE-37,Parental
+SKW-3,KE-37,Contaminant
+KELLY,KELLY,Contaminant? Requires determination of provenance.
+NB19,NB19,Parental
+KG-1,KG-1,Parental
+KG-1a,KG-1,Derivative Line
+KG-1-B,KG-1,Derivative Line
+KMT-2,KG-1,Contaminant
+KLM-1,KLM-1,Derived from same patient
+PK-1,PK-1,Derived from same patient
+KMS-12-BM,KMS-12-BM,derived from same patient
+KMS-12-PE,KMS-12-PE,derived from same patient
+KMS-21BM,KMS-24,Contaminant
+KMS-24,KMS-24,Parental?
+KMS-28BM,KMS-28BM,derived from same patient
+KMS-28PE,KMS-28PE,derived from same patient
+KNS-81,KNS-81,Derivative Line
+KNS-81-FD,KNS-81-FD,Derivative Line
+KP-1N,PANC-1,Contaminant
+PANC-1,PANC-1,Parental
+KP4,KP4,Derivative Line
+KP4-1,KP4-1,Derivative Line
+KP4-2,KP4-2,Derivative Line
+KP4-3,KP4-3,Derivative Line
+KPB-M15,KYO-1,Contaminant
+KYO-1,KYO-1,Parental
+KU812,KU812,Derivative Line
+KU812E,KU812,Derivative Line
+KU812F,KU812,Derivative Line
+KU-SN,KU-SN,Parental
+KU-YS,KU-SN,Contaminant
+KY821,KY821,Derived from same patient
+KY821A3,KY821,Derived from same patient
+KPB-M15, --,Contaminant
+KYO-1, --,Contaminant
+LAMA-84,LAMA-84,Derived from same patient
+LAMA-87,LAMA-84,Derived from same patient
+LN-319,LN-992,Contaminant
+LN-992,LN-992,Parental
+LN-443,LN-444,Contaminant
+LN-444,LN-444,Parental
+LoVo,LoVo,Parental
+NCOL-1,LoVo,Contaminant
+LTR228, --,Contaminant? Requires determination of provenance.
+SKW 6.4, --,Contaminant? Requires determination of provenance.
+TK6,WIL2-S,Derivative Line
+WIL2-NS,WIL2-S,Derivative Line
+WIL2-S,WIL2-S,Parental
+Lu-130,Lu-134A,Contaminant
+Lu-134A,Lu-134A,Parental
+Lu-134-A,Lu-134-A,Parental
+Lu-134-A-H,Lu-134-A,Derived from same patient?
+Lu-134-B,Lu-134-A,Derived from same patient?
+LU65,LU65,Derivative Line
+LU65A,LU65,Derivative Line
+LU65B,LU65,Derivative Line
+LU65C,LU65,Derivative Line
+LU99,LU65,Derivative Line
+LU99A,LU65,Derivative Line
+LU99B,LU65,Derivative Line
+LU99C,LU65,Derivative Line
+LUDLU-23,WILCL,Derived from same patient
+WILCL,WILCL,Derived from same patient
+LXFL529,RD,Contaminant? Requires determination of provenance.
+RD,RD,Parental
+T 174,RD,Contaminant
+TE 381.T,RD,Derivative Line
+TE 671,RD,Contaminant
+TE 671 subline No. 2,RD,Contaminant
+TE 76.T,RD,Contaminant
+M059J,M059J,Derived from same patient
+M059K,M059K,Derived from same patient
+BHP 14-9,M14,Contaminant
+BHP 17-10,M14,Contaminant
+BHP 5-16,M14,Contaminant
+LLC-15MB,M14,Contaminant
+M14,M14,Parental
+M4A4,M14,Derivative Line
+M4A4 GFP,M14,Derivative Line
+M4A4 LM3-2 GFP,M14,Derivative Line
+M4A4 LM3-4 CL16 GFP,M14,Derivative Line
+MDA-MB-435,M14,Derivative Line
+MDA-MB-435s,M14,Derivative Line
+MDA-N,M14,Contaminant
+NM2C5,M14,Derivative Line
+NM2C5 GFP,M14,Derivative Line
+NPA87,M14,Contaminant
+MA-1,Pfeiffer,Contaminant
+Pfeiffer,Pfeiffer,Parental
+Marcus,Marcus,Parental
+RERF-LC-OK,Marcus,Contaminant
+SK-MG-1,Marcus,Contaminant
+Mash-1,MMAc,Contaminant
+MMAc,MMAc,Parental
+MCF 10A,MCF 10A,Derivative Line
+MCF 10F,MCF 10A,Derivative Line
+MCF-10-2A,MCF 10A,Derivative Line
+MCF-10-2F,MCF 10A,Derivative Line
+MCF10DCIS.com,MCF 10A,Derivative Line
+MCF-12A,MCF-12A,Derivative Line
+MCF-12F,MCF-12A,Derivative Line
+MC-IXC,MC-IXC,Derivative Line
+SK-N-MC,MC-IXC,Derivative Line
+MC-SV-HUC T-2,SV-HUC-1,Derivative Line
+SV-HUC-1,SV-HUC-1,Parental
+MDA PCa 2a, --,Contaminant? Requires determination of provenance.
+MDA PCa 2b,MDA PCa 2b,Parental
+MDA-kb2,MDA-MB-453,Derivative Line
+MDA-MB-453,MDA-MB-453,Parental
+SF767,ME-180,Contaminant
+ME-180,ME-180,Parental
+MEC-1,MEC-1,Derived from same patient
+MEC-2,MEC-2,Derived from same patient
+MEL-HO, --,Contaminant
+ME-WEI, --,Contaminant
+MIA PaCa-2,MIA PaCa-2,Parental
+PH61-N,MIA PaCa-2,Contaminant
+MKN-28,MKN-74,Contaminant
+MKN-74,MKN-74,Parental
+MOLT-16,MOLT-16,Derived from same patient
+MOLT-17,MOLT-16,Derived from same patient
+MOLT-3,MOLT-3,Derived from same patient
+MOLT-4,MOLT-3,Derived from same patient
+MONO-MAC-1,MONO-MAC-1,Derived from same patient
+MONO-MAC-6,MONO-MAC-1,Derived from same patient
+Flow13000,MRC-5,Contaminant
+MRC-5,MRC-5,Parental
+MS-1,MS-1,Nomenclature
+MS-1-L,MS-1,Nomenclature
+MUTZ-1, --,Contaminant
+NAMALWA,NAMALWA,Parental
+NAMALWA.CSN/70,NAMALWA,Derivative Line
+NAMALWA.IPN/45,NAMALWA,Derivative Line
+NAMALWA.KN2,NAMALWA,Derivative Line
+NAMALWA.PNT,NAMALWA,Derivative Line
+MUTZ-3,MUTZ-3,Parental
+MUTZ-4,MUTZ-3,Contaminant
+NALM-20, --,Contaminant? Requires determination of provenance.
+NALM-21, --,Contaminant? Requires determination of provenance.
+BLIN-1,NALM-6,Contaminant
+LR10.6,NALM-6,Contaminant
+NALM-6,NALM-6,Parental
+PBEI,NALM-6,Contaminant
+NC-37,RAJI,Contaminant
+RAJI,RAJI,Parental
+TDL-4,RAJI,Contaminant
+NCC16,PHK16-0b,Parental
+PHK16-0b,PHK16-0b,Contaminant
+NCCIT, --,unresolved
+NCC-IT-A3, --,unresolved
+NCC-RbC-59, --,unresolved
+R59, --,unresolved
+NCE 16IIA, --,unresolved
+NCE 16IIB, --,unresolved
+NCE SVIIA3, --,unresolved
+NCI/ADR-RES,OVCAR-8,Contaminant
+OVCAR-8,OVCAR-8,Parental
+Ovary1847,OVCAR-8,Contaminant
+NCI-BL1184,NCI-BL1184,Derived from same patient
+NCI-H1184,NCI-H1184,Derived from same patient
+0,NCI-BL1437,Derived from same patient
+NCI-H1437,NCI-H1437,Derived from same patient
+NCI-BL1648,NCI-H1648,Derived from same patient
+NCI-H1648,NCI-H1648,Derived from same patient
+NCI-BL2052,NCI-BL2052,Derived from same patient
+NCI-H2052,NCI-H2052,Derived from same patient
+NCI-BL209,NCI-BL209,Derived from same patient
+NCI-H209,NCI-H209,Derived from same patient
+NCI-BL2141,NCI-H2141,Derived from same patient
+NCI-H2059, --,Derived from same patient
+NCI-H2141,NCI-H2141,Derived from same patient
+NCI-H125,NCI-H125,Parental
+NCI-H513,NCI-H125,Contaminant
+NCI-H1264,NCI-H157,Contaminant
+NCI-H1339,NCI-H157,Contaminant? Requires determination of provenance.
+NCI-H157,NCI-H157,Parental
+NCI-H1304,NCI-H1870,Contaminant
+NCI-H1870,NCI-H1870,Parental
+NCI-H1334, --,Contaminant
+NCI-H322, --,Contaminant
+NCI-H322M, --,Contaminant?
+NCI-H322T, --,Contaminant
+NCI-BL1395,NCI-H1395,Derived from same patient
+NCI-H1395,NCI-H1395,Derived from same patient
+NCI-H1514, --,Contaminant
+NCI-H1581,NCI-H1581,Parental
+NCI-H2077, --,Contaminant? Requires determination of provenance.
+NCI-H1693, --,Derived from same patient
+NCI-H1819, --,Derived from same patient
+NCI-BL1770,NCI-H1770,Derived from same patient
+NCI-H1770,NCI-H1770,Derived from same patient
+NCI-H2106,NCI-H2106,Contaminant
+NCI-H1876,NCI-H1876,Derived from same patient
+NCI-H1882,NCI-H1882,Derived from same patient
+NCI-H1881,NCI-H1881,Derived from same patient
+NCI-H1993, --,unresolved
+NCI-H2073, --,unresolved
+NCI-H1994, --,unresolved
+NCI-H2029, --,unresolved
+NCI-BL2009,NCI-H2009,Derived from same patient
+NCI-H2009,NCI-H2009,Derived from same patient
+NCI-BL2107,NCI-H2107,Derived from same patient
+NCI-H2107,NCI-H2107,Derived from same patient
+NCI-H2108,NCI-H2107,Derived from same patient
+NCI-BL2122,NCI-H2122,Derived from same patient
+NCI-H2122,NCI-H2122,Derived from same patient
+NCI-H2195, --,Derived from same patient
+NCI-H2196,NCI-H2196,Derived from same patient
+NCI-H2198,NCI-H2196,Derived from same patient
+NCI-H2280, --,Contaminant? Requires determination of provenance.
+NCI-H2286,NCI-H2286,Parental
+NCI-BL2347,NCI-H2347,Derived from same patient
+NCI-H2347,NCI-H2347,Derived from same patient
+NCI-H295,NCI-H295,Derivative Line
+NCI-H295R,NCI-H295,Derivative Line
+HCC630,NCI-H630,Nomenclature?
+NCI-H630,NCI-H630,Parental
+NCI-H738, --,Contaminant
+NCI-H417,NCI-N417,Nomenclature?
+NCI-H60,NCI-N417,Contaminant
+NCI-N417,NCI-N417,Parental
+NIH:OVCAR-3,NIH:OVCAR-3,Parental
+ONCO-DG-1,NIH:OVCAR-3,Contaminant
+NK-92,NK-92,Parental
+NK-92CI,NK-92,Derivative Line
+NK-92MI,NK-92,Derivative Line
+NOMO-1,NOMO-1,Derivative Line
+NOMO-1s,NOMO-1,Derivative Line
+NT2/D1,NTERA-2,Nomenclature
+NTERA-2,NTERA-2,Derivative Line
+NTERA-2 cl.D1,NTERA-2,Derivative Line
+Tera-2,NTERA-2,Derivative Line
+NTI-4, --,unresolved
+NTI-5, --,unresolved
+41M, --,Contaminant
+OAW 48, --,Contaminant
+OCI/AML2,OCI/AML2,Parental
+OU-AML-1,OCI/AML2,Contaminant
+OU-AML-2,OCI/AML2,Contaminant
+OU-AML-3,OCI/AML2,Contaminant
+OU-AML-4,OCI/AML2,Contaminant
+OU-AML-5,OCI/AML2,Contaminant
+OU-AML-6,OCI/AML2,Contaminant
+OU-AML-7,OCI/AML2,Contaminant
+OU-AML-8,OCI/AML2,Contaminant
+OCUB-F,OCUB-1,Derivative Line
+OCUB-M,OCUB-1,Derivative Line
+OCUB-1,OCUB-1,Parental
+OCUM-11,OCUM-11,Parental
+OCUM-6,OCUM-11,Contaminant
+OV-1063, --,Contaminant
+OvCA 429,OvCA 429,Contaminant? Requires determination of provenance.
+OVCAR433,OVCAR433,Contaminant? Requires determination of provenance.
+OVMIU,OVSAYO,Contaminant
+OVSAYO,OVSAYO,Parental
+P3JHR-1,P3JHR-1,Parental
+TDL-1,P3JHR-1,Contaminant
+TDL-2,P3JHR-1,Contaminant
+p53R, --,Contaminant? Requires determination of provenance.
+RKO,RKO,Parental
+RKO-E6,RKO,Derivative Line
+Panc 01.28, --,Contaminant? Requires determination of provenance.
+Panc 04.21, --,Contaminant? Requires determination of provenance.
+Panc 06.03, --,Contaminant? Requires determination of provenance.
+Panc 10.05,Panc 10.05,Derived from same patient
+PL45,Panc 10.05,Derived from same patient
+PA-TU-8988S,PA-TU-8988,Derived from same patient
+PA-TU-8988T,PA-TU-8988,Derived from same patient
+ALVA-101,PC-3,Contaminant
+ALVA-31,PC-3,Contaminant
+ALVA-41,PC-3,Contaminant
+ALVA-55,PC-3,Contaminant
+DuPro-1,PC-3,Contaminant
+PC-3,PC-3,Parental
+PPC-1,PC-3,Contaminant
+PCI-3,PC-3,Contaminant
+JHU019,PC-3,Contaminant
+PC-14,PC-3,Contaminant
+PC-9,PC-9,Parental
+PEA1,PEA1,Derived from same patient
+PEA2,PEA1,Derived from same patient
+BE-13,PEER,contaminant
+PEER,PEER,Parental
+PEO1,PEO1,Derived from same patient
+PEO4,PEO1,Derived from same patient
+PEO6,PEO1,Derived from same patient
+PEO14,PEO14,Derived from same patient
+PEO23,PEO14,Derived from same patient
+TO14,PEO14,Derived from same patient
+PK-45H,PK-45,Derived from same patient
+PK-45P,PK-45,Derived from same patient
+PL512, --,unresolved
+UC701, --,unresolved
+GR-M, --,unresolved
+PSN1, --,unresolved
+PSV811,WI-38,Contaminant
+VA-13,WI-38,Derivative Line
+WI-38,WI-38,Parental
+WI-38 VA13 sub 2 RA,WI-38,Derivative Line
+WI-38 VA13 subline 2,WI-38,Derivative Line
+RAMOS,RAMOS,Parental
+Ramos (RA 1),RAMOS,Nomenclature
+Ramos.2G6.4C10,RAMOS,Derivative Line
+EU-1,REH,Contaminant
+KM-3,REH,Contaminant
+NOI-90,REH,Contaminant
+REH,REH,Parental
+WSU-CLL,REH,Contaminant
+GT3TKB,RERF-LC-A1,Contaminant
+RERF-LC-A1,RERF-LC-A1,Parental
+SK-MES-1,SK-MES-1,Parental
+RERF-LC-MA,SK-MES-1,Contaminant
+RF-1, --,Contaminant? Requires determination of provenance.
+RF-48, --,Contaminant? Requires determination of provenance.
+RH-30,RH-30,Parental
+SJCRH30,SJCRH30,Contaminant? Requires determination of provenance.
+RMUG-L,SNG-II,Contaminant
+SNG-II,SNG-II,Parental
+RTSG,SNG-II,Contaminant
+RWPE-1,RWPE-1,parental
+RWPE-2,RWPE-1,Derivative Line
+RWPE2-W99,RWPE-1,Derivative Line
+WPE1-NA22,RWPE-1,Derivative Line
+WPE1-NB11,RWPE-1,Derivative Line
+WPE1-NB14,RWPE-1,Derivative Line
+WPE1-NB26,RWPE-1,Derivative Line
+WPE1-NB26-64,RWPE-1,Derivative Line
+WPE1-NB26-65,RWPE-1,Derivative Line
+WPE-stem,RWPE-1,Derivative Line
+WPMY-1,WPMY-1,Derivative Line
+SCCKN,SCCKN,Parental
+SCCTF,SCCKN,Contaminant
+SCLC-16H,SCLC-21/22H,Contaminant
+SCLC-21/22H,SCLC-21/22H,Parental
+SCLC-24H,SCLC-21/22H,Contaminant
+SCLC-21H,SCLC-21,Derived from same patient
+SCLC-22H,SCLC-21,Derived from same patient
+SEG-1,NCI-H460,Contaminant
+NCI-H460,NCI-H460,Parental
+SF8402,SF8402,Derived from same patient
+SF8410,SF8402,Derived from same patient
+SF8425,SF8425,Derived from same patient
+SF8428,SF8425,Derived from same patient
+SH-EPi, --,Contaminant? Requires determination of provenance.
+SH-SY5Y,SK-N-SH,Derivative Line
+SK-N-SH,SK-N-SH,Parental
+SKG-IIIa, --,unresolved
+SKG-IIIb, --,unresolved
+SK-GT-5,SK-GT-2,Contaminant
+SK-GT-2,SK-GT-2,Parental
+F2-4E5,SK-HEP-1,Contaminant
+F2-5B6,SK-HEP-1,Contaminant
+P1-1A3,SK-HEP-1,Contaminant
+P1-4D6,SK-HEP-1,Contaminant
+SK-HEP-1,SK-HEP-1,Parental
+SKO-007,U-266,Derivative Line
+SKO-007 J3 clone,U-266,Derivative Line
+U-266,U-266,Parental
+U266B1,U266B1,Derivative Line
+SNU-C2A,SNU-C2,Derived from same patient
+SNU-C2B,SNU-C2,Derived from same patient
+SR,SR,Nomenclature
+SR-786,SR-786,Nomenclature
+ETK-1,SSP-25,Contaminant
+SSP-25,SSP-25,Parental
+T.T,T.T,Derivative Line
+T.Tn,T.T,Derivative Line
+T1(174 x CEM.T1),T1,parental
+T2,T1,Derivative Line
+T2(174 x CEM.T2),T1,Derivative Line
+ACCS,T-24,Contaminant
+EJ-1,T-24,Contaminant
+EJ138,T-24,Contaminant
+GHE,T-24,Contaminant
+HAG,T-24,Contaminant
+HCV-29Tmv,T-24,Contaminant
+Hu456,T-24,Contaminant
+Hu549,T-24,Contaminant
+Hu609Tmv,T-24,Contaminant
+Hu961a,T-24,Contaminant
+JCA-1,T-24,Contaminant
+KSY-1,T-24,Contaminant
+MGH-U1,T-24,Contaminant
+MGH-U2,T-24,Contaminant
+RAMAK-1,T-24,Contaminant
+T-24,T-24,Parental
+TSU-Pr1,T-24,Contaminant
+UM-UC-2,T-24,Contaminant
+T3M-1, --,Contaminant
+T404,T404,Parental
+T406,T404,Contaminant
+Tu-138,T404,Contaminant
+Tu-158LN,T404,Contaminant
+Tu-159,T404,Contaminant
+Tu-182,T404,Contaminant
+Tu-212,T404,Contaminant
+Tu-212LN,T404,Contaminant
+TCO-1,TCO-2,Contaminant
+TCO-2,TCO-2,Parental
+TE 353.Sk, --,unresolved
+TE 354.T, --,unresolved
+TE-12,TE-2,Contaminant
+TE-13,TE-2,Contaminant
+TE-2,TE-2,Parental
+TE-2,TE-2,Contaminant
+TE-3,TE-2,Contaminant
+TE-7,TE-2,Contaminant
+TF-1,TF-1,Parental
+TF-1.CN5a.1,TF-1,Derivative Line
+TF-1a,TF-1,Derivative Line
+TGBC50TKB,TGBC50TKB,Derived from same patient
+TGBC51TKB,TGBC51TKB,Derived from same patient
+TGBC52TKB,TGBC52TKB,Derived from same patient
+TGW,TGW,parental
+TGW.P3,TGW,Derivative Line
+TNB1,TGW,Nomenclature
+A-THP-1,THP-1,Derivative Line
+THP-1,THP-1,Parental
+BHP 10-3,TPC-1,Contaminant
+BHP 2-7,TPC-1,Contaminant
+BHP 7-13,TPC-1,Contaminant
+FB2,TPC-1,Contaminant
+TPC-1,TPC-1,Parental
+RPTC-1,TPC-1,Contaminant
+TYK-nu,TYK-nu,Contaminant
+TYK-nu.CP-r,TYK-nu.CP-r,Contaminant
+1181N1,U-138 MG,Derivative Line
+1321N1,U-138 MG,Derivative Line
+U-118 MG,U-138 MG,Contaminant
+U-138 MG,U-138 MG,Parental
+UBE6T-15, --,Derivative Line?
+UBE6T-6, --,Derivative Line?
+UBE6T-7, --,Derivative Line?
+UE6E7-16, --,Derivative Line?
+UE6E7T-1, --,Derivative Line?
+UE6E7T-11, --,Derivative Line?
+UE6E7T-12, --,Derivative Line?
+UE6E7T-2, --,Derivative Line?
+UE6E7T-3, --,Derivative Line?
+UE7T-13, --,Derivative Line?
+UE7T-9, --,Derivative Line?
+UCB302MSCs, --,Derivative Line?
+UCBTERT-21, --,Derivative Line?
+UM-UC-3-GFP, --,Contaminant
+VM-CUB-III,VM-CUB-I,Contaminant
+VM-CUB-I,VM-CUB-I,Parental
+VP229,VP229,Derived from same patient
+VP267,VP267,Derived from same patient
+WI-26,WI-26,Parental
+WI-26 VA4,WI-26,Derivative Line
+WM-115,WM-115,Derived from same patient
+WM-266-4,WM-266-4,Derived from same patient
+TS 9-7, --,Contaminant? Requires determination of provenance.
+WT 9-12,WT 9-12,Derived from same patient
+WT 9-7,WT 9-7,Derived from same patient
+WT 9-9,WT 9-9,Derived from same patient
+YMB-1,ZR-75-1,Contaminant
+YMB-1-E,ZR-75-1,Contaminant? Requires determination of provenance.
+ZR-75-1,ZR-75-1,Parental

@@ -1,0 +1,92 @@
+\documentclass[10pt]{article}
+\usepackage{graphicx}
+\usepackage[T1]{fontenc}
+\usepackage{txfonts}
+\setcounter{secnumdepth}{0}
+\usepackage[affil-it]{authblk}   % author affiliation
+\usepackage{lineno} %line numbers
+\usepackage[a4paper, total={6.5in, 8.5in}]{geometry} % set page size
+\usepackage{setspace}
+\usepackage{multicol}
+\usepackage{hyperref}
+
+\usepackage[authormarkup=none]{changes}
+%\usepackage[final]{changes}
+\definechangesauthor[name={Jess}, color=blue]{J}
+\definechangesauthor[name={Iva}, color=purple]{I}
+\definechangesauthor[name={Aaron}, color=green]{A}
+
+\begin{document}
+
+\title{Demographic Bias in Human Cell Studies}
+\author{Jessica Snyder\textsuperscript{1}, Iva Bojic\textsuperscript{1,2}, Aaron Gerow\textsuperscript{3}, Carlo Ratti  \textsuperscript{1,2 } \\ \textsuperscript{1}Massachusetts Institute of Technology, SENSEable City Lab \\ \textsuperscript{2}Singapore-MIT Alliance for Research and Technology \\ \textsuperscript{3}University of Chicago, Computation Institute}
+
+\maketitle
+
+\begin{multicols}{2}
+Breast cancer treatments are shaped by the research tools used to understand the disease. As these tools become increasingly focused, it is important to understand how inclusive they are of treatment populations. The use of human cell lines, in particular, in the development of cancer treatments poses serious questions about representation. Looking at the demographics of cell lines in published research, we find a discernible bias for the majority patient ethnicity.
+
+From 1999 to 2013, the population of female breast cancer patients has been proportionally shrinking (figure 1A). The population-level decrease indicates that environmental stressors triggering breast cancer are likely being reduced. One explanation is that decreased prescription of a hormone-replacement therapy (HRT), which is shown to increase white and Hispanic patient's risk of breast cancer by >20\% \cite{million2003breast}. HRT was not, however, found to increase risk for black women. Because HRTs were limited in 2002, the rate of breast cancer incidence among white, Hispanic and Native American women have fallen, while the rate for black and Asian women increased over the same time. Looking simply at ethnicity, the breast cancer population is a heterogeneous disease, having sub-types with their own risk factors and pathologies. 
+
+The prognosis for women diagnosed with breast cancer has improved, in part due to advances in screening, early detection, and increasing survival rates, especially for women under 50 years old \cite{etzioni2003case}. Of deaths caused by breast cancer, black women had the highest rate from 1999-2013, higher than white women, who are more likely to be diagnosed (figure 1B). This might be due to later stages of diagnosis and more aggressive tumor sub-types, both of which disproportionately affect black patients \cite{batina2013variation}. Characterization of each breast cancer sub-type provides the scientific basis for treatment options, like it already has for the most common forms as shown by the increasing survival rate. Our question is, which ethnicities, as a proxy for tumor sub-types, are represented in the medical research?%, specifically breast cancer cell lines?
+
+% This paragraph reads as if breast cancer cell lines aren't cell lines. first BC cell line in 1958, but first cell line in 1974. // AG
+The first breast cancer cell line was donated by a 74 year old female patient in 1958, named BT-20. BT-20 remained the only breast cancer cell line for more than a decade, until other cells were cultured from white female patients in the 1970s. A list of all human cell lines -- not just cancer cells -- was developed in previous work to assess cell line authentication and quality control, inventory cell line features \cite{yu2015resource}. While researchers conceivable have access to the full range of cell lines, in practice, many lines are used as standards to compare new findings to previous work. The first cell line derived from a black patient's biopsy was in 1974, followed by the first Asian breast cancer cell lines 20 years later in 1994 and the first Hispanic line was developed in 1995. There are currently no Native American breast cancer cell lines currently available. To date, 134 breast cancer cell lines derived from humans are available. Of which, 68 have declared an ethnicity for the donor. Of those, the donors include a majority of 50 lines from white donors, 12 from black donors, 4 from Hispanic donors, and 2 from Asian donors. %%% Mix up here 
+
+In published research, citations to cell lines suggest that the desire for standards exerts a homogenizing force. Among 1.2 million publications from 1975 to 2016, cited a human cell line derived from breast cancer (see Appendix; Methods \& Materials). 85.6\% cited a cell line from a white donor. The next most frequent cell line citation was to donors of unknown ethnicity, 8.8\%, then black donors at 5.0\%, and at order of magnitude less publications cited cell lines from Asian donors at 0.5\%, and another order of magnitude less were declared Hispanic cell lines at 0.1\%. There were no citations of lines from Native American patients as none were available (figure 1C).
+
+Publication are the typical output of research communities, but scientific findings are also made in commercial settings. Like publications, U.S. Patents show evidence of developing treatments. From 2001 to 2015 shows, the majority of cell lines in patents were from a white donor, the second most being black. No other ethnicities were represented in patents (figure 1D).
+
+Using statistics from the U.S. CDC, for each ethnic population, the fraction of incidence and death was calculated. Similarly, for each ethnicity, the fraction of cited cell lines in publications and patents was calculated. These proportions were used to estimate bias in research. First, there is a bias in treatment efficacy: subtracting each ethnicity's fraction in the incidence from the death population, black patient are the only group for which the death population is greater than incidence, by 0.4\%.%Am I just stupid, but how is this possible? It sounds like more black women are dying of breast than have it. // AG
+There is also bias in the publication record: blacks represent about 10\% more of the death population than citations of black cell lines in publications (figure 1F). Whites are the only ethnic group represented more in publications than in the death population, by more than 15\%. This finding is true also for patents, which favor the majority ethnicity (figure 1G). Comparing the representation of each ethnic group in 2013 shows a more proportional representation of the majority patient ethnicity and dependence on cell model standards, figure 1H. % This final sentence doesn't make sense to me // AG
+
+The use of cell models may hinder generalization of results. More than 50,000 women will be diagnosed with breast cancer between 2010-2020 in the U.S. alone, at a medical cost estimated at \$48 billion \cite{mariotto2011projections, weir2015past}. The National Institutes of Health (NIH) and the National Cancer Institute (NCI) invested a combined \$4.1 billion in breast cancer research from 2012 through 2014. %with the goal of restoring the nation's breast cancer patient population to good health.
+Assessments of disease burden and treatment effectiveness are used to guide funding for medical research and policy toward the most productive outcomes \cite{kim2016cancer}. To this end, as black patients comprise more of the death population than incidence, CDC statistics suggests that breast cancer treatment is less effective for black women than women of all other races. Despite the fact that previous studies showed black breast cancer patients presented elevated risk for aggressive, intrinsic factors of breast cancer \cite{huo2009population, reding2012examination}, instead of assigning more resources into research using cell lines from black donors, the opposite is the case: whites are over-represented in research by more than 15\%.
+
+Today, the only available regulative apparatus is found in the US Food and Drug Administration (FDA) which in 1998, when pharmaceutical efficacy was found to be sensitize to genetic factors, responded by implementing the Demographic Rule. The Rule established guidelines for racial and ethnic representativeness during clinical trails. However, clinical trials are one of the final stages of work that often begins with the use of cell models, animal models, and finally human models. Should such guidelines be extended to the preclinical stage? Recent efforts from the NIH to balance sex in cell and animal studies suggests so \cite{clayton2014nih}. The 1993 NIH Revitalization Act aimed to increase representation of women and minorities in clinical trials, but did not address earlier stages of research. Despite multiple calls for action, the publication record continues to neglect ethnic considerations, the effects of which surely permeate later-stage research. While legislative solutions may be too restrictive for all research, prioritizing inclusiveness and diversity in the use of cell lines could be feasibly integrated into review and editorial processes.
+
+Initiatives such as Cancer Moon Shot's database, which catalogs tumor sub-types from the patient populations, could help reduce dependence on standard models, the use of which passively perpetuates the bias in early-stage research, by highlighting patients without effective treatment options \cite{lowy2016cancer}. We hope similar such collaborative approaches can populate the human cell line bank and medical research community to discover the multitude of pathologies involved in breast cancer, alleviating the community's dependence on standards as we realize the potential of personalized medicine.
+ 
+\end{multicols}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=1\columnwidth, trim = {30cm 10cm 30cm 5cm}, clip]{Figures/BreastComposite.jpg}
+\caption{\label{PS1} Breast cancer prevalence and research.}
+\end{figure}
+ 
+\bibliographystyle{unsrt}
+\bibliography{refs}
+
+\section{Appendix}
+The same analysis was conducted from prostate and lung cancer. 
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=1\columnwidth, trim = {30cm 10cm 30cm 5cm}, clip]{Figures/ProstateComposite.jpg}
+\caption{\label{PS2} Prostate cancer}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=1\columnwidth, trim = {30cm 10cm 30cm 5cm}, clip]{Figures/LungComposite.jpg}
+\caption{\label{PS3} Lung cancer.}
+\end{figure}
+
+\newpage
+
+\subsection{Methods \& Materials}
+
+A set of {\color{blue}644,018} manuscripts published from 1970 to 2016 was selected from medline\footnote{\textit{www.ncbi.nlm.nih.gov/pubmed}; leased data, bulk download.} and PubMed Central\footnote{\textit{www.ncbi.nlm.nih.gov/pmc}; by API.} by one of the six following Medical Subject Headings (MeSH) terms\footnote{\textit{https//www.ncbi.nlm.nih.gov/mesh}} \textit{"Cell Line"}, \textit{"Cell Line, Transformed"}, \textit{"Cell Line, Tumor"}, \textit{"Breast Neoplasms"}, \textit{"Prostatic Neoplasms"} and \textit{"Lung Neoplasms"}. The first three MeSH terms were chosen because they were the {\color{blue}only ones} containing \textit{cell line} term and last three because female breast, prostate and lung have been the top three cancer sites since the early 1990's\footnote{\textit{www.cancer.org/research/cancer-facts-statistics/all-cancer-facts-figures/cancer-facts-figures-2017.html}}. From this set of {\color{blue}644,018} manuscripts, {\color{blue}169,464} full text versions were available for download from PubMed Central or SCOPUS\footnote{\textit{www.scopus.com}; proprietary API access.}. Moreover, a set of {\color{blue}4,568,258} patents was selected from the entirety of the US Patents\footnote{\textit{www.uspto.gov}; weekly bulk downloads.} from {\color{blue}January 1990} to May, 2016 by performing a string matching for word \textit{"cell"} in the patent text (including their supporting documentation).
+
+A set of 3,508 cell lines of human orign (i.e. \textit{homo sapiens}) with unique names was compiled using data from Supplementary Table 2 and Supplementary Table 6 included in the supporting data for \cite{yu2015resource}. Namely, out of 3515 human cell lines from Supplementary Table 2, seven of them were listed twice 2B8, AC-1M46, FTC-236, HKB-11, I 9.2, NCI-N417, P3HR-1. Moreover, we did mapping between their twelve Contaminant Statuses and our two Contaminant Indexes ("1" denoting contaminated cell lines) as it is shown in our Supplementary Table 3. When it comes to their \textit{"Parental"} and \textit{"Parental?"} statuses, we consider that only those cell lines whose \textit{"Name"} and \textit{"Canonical name"} are different, are contaminated. Otherwise we would map them into "0" (please refer to our Supplementary Table 2). {\color{red} We need explanation about other mapping, i.e. Dis, Gen, Eth...}
+
+
+The whole list of cell lines we used is shown in our Supplementary Table 1.
+
+Once when we had the whole list in Supplementary Table 1, we extracted cell lines Name (i.e. the first column) from the sets of downloaded manuscripts and patents. Variation in cell line nomenclature was accommodated by allowing a space, '-', '/' or parentheses between transitions of alphabetic and numeric characters (and vice versa) and where a delimiting character occurred in the canonical name. This collapses, for example, \textit{MCF(7)}, \textit{MCF7}, \textit{MCF 7} and \textit{MCF-7}, into the canonical form \textit{MCF-7}. This matching procedure found 136,855 manuscripts mentioned one or more cell lines, with a total of 2,767,589 instances overall. 181,283 patents mentioned one or more cell lines and a total of 2,829,331 cell line occurrences was found. After collapsing all instances of the same cell lines in a certain manuscript/patent, we were left in total with 552,006 and 850,116 unique cell line occurrences in manuscripts and patents, respectively. 
+
+In order to exclude false positive records, we made a histogram showing how often the same cell line is occurring in a manuscript/patent. Results showed in Supplementary Table 4 confirmed that approximately 50\% of our records is of cell lines that were found in a certain manuscript/patent only once. Since for those records, there is a higher chance to be false positives, we decided to use a threshold of two. This means that we are considering only those instances of cell lines that repeated at least for two times in the same manuscript/patent. By imposing this rule we were left with 52\% and 45\% of unique cell lines occurrences in manuscripts and patents, respectively. Moreover, since the chance that a record is a false positive is correlated with the length of cell line name, for 44 cell lines whose name length is two, we used a threshold of three. Finally, we omitted all cell line occurrences of "false" cell lines. In the end we were left with 182,829 and 225,828 unique records in manuscripts and patents, respectively.
+
+
+\end{document}

@@ -1,0 +1,4 @@
+	Cancer Sites	All Races Count	White Count	Black Count	Asian/Pacific Islander Count	American Indian/Alaska Native Count	Hispanic Count
+	All Cancer Sites Combined	1,263,428	1,104,821	117,613	25,834	4,804	69,676
+	All Sites (comparable to ICD-O-2)	1,262,623	1,104,100	117,560	25,820	4,799	69,630
+	Male and Female Breast	189,245	166,283	16,541	4,292	702	10,509

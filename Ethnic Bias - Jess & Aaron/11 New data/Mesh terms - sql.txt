@@ -1,0 +1,57 @@
+How we got mesh terms
+
+SELECT SUBSTRING(medline.pmid_ext_metadata.date, 1, 4) AS year, medline.mesh.descriptorName AS name, 
+count(*)
+FROM medline.mesh, medline.cell_docs, medline.pmid_ext_metadata 
+WHERE 
+medline.cell_docs.pmid = medline.mesh.pmid AND medline.cell_docs.pmid = medline.pmid_ext_metadata.pmid 
+
+GROUP BY year, name 
+
+-------------------------------------------------------------------------------------------------------
+How many unique papers we have in cell_docs
+
+SELECT count(DISTINCT medline.cell_docs.pmid) FROM medline.cell_docs
+
+148,177
+
+For how many papers we have information in pmid_ext_metadata
+
+
+SELECT count(DISTINCT medline.cell_docs.pmid) 
+FROM medline.cell_docs, medline.pmid_ext_metadata
+
+WHERE medline.cell_docs.pmid = medline.pmid_ext_metadata.pmid
+
+139,560
+
+How many papers fell off wagon
+
+8,617
+
+For how many papers we have information in doc
+
+SELECT count(DISTINCT medline.cell_docs.pmid) 
+
+FROM medline.cell_docs, medline.doc
+
+WHERE medline.cell_docs.pmid = medline.doc.pmid
+
+115,960
+
+How many papers fell off wagon
+
+32,217
+
+Conclusion is that we should use pmid_ext_metadata dataset with 139,560 papers and 13,112,260 instances.
+
+
+
+1,455,381
+1,455,381
+1,528,986
+2,984,367 >= '2015'
+
+
+
+

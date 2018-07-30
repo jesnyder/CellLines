@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Manuscript_02.aux
+The style file: unsrt.bst
+Database file #1: refs.bib
+Repeated entry---line 70 of file refs.bib
+ : @article{batina2013variation
+ :                             ,
+I'm skipping whatever remains of this entry
+You've used 9 entries,
+            1791 wiz_defined-function locations,
+            508 strings with 6153 characters,
+and the built_in function-call counts, 2656 in all, are:
+= -- 200
+> -- 207
+< -- 0
++ -- 72
+- -- 63
+* -- 253
+:= -- 466
+add.period$ -- 27
+call.type$ -- 9
+change.case$ -- 9
+chr.to.int$ -- 0
+cite$ -- 9
+duplicate$ -- 80
+empty$ -- 207
+format.name$ -- 63
+if$ -- 537
+int.to.chr$ -- 0
+int.to.str$ -- 9
+missing$ -- 9
+newline$ -- 48
+num.names$ -- 9
+pop$ -- 11
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 28
+stack$ -- 0
+substring$ -- 196
+swap$ -- 9
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 24
+width$ -- 10
+write$ -- 100
+(There was 1 error message)

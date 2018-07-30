@@ -1,0 +1,85 @@
+\documentclass[10pt]{article}
+\usepackage{graphicx}
+
+\title{Demographic Inclusiveness in Human Cell Studies}
+
+\begin{document}
+\maketitle
+  
+\section{Introduction}
+  
+The research process for preclinical studies typically progresses from cell models, to animal models, and finally human models. During the cell model stage, donors provide a sample of cells to be grown in a lab environment. The possibility of demographic bias in cell culture studies specifically the gender, age and ethnicity of human donors supplying to the cells used for research can have significant consequences for the validity of findings during early stage pharmaceutical studies. However, federal regulations require broad spectrum representation of gender, age and ethnicity during only the final phase of clinical testing, the human model stage. What happens in the first phase of cell models is not regulated and consequently can result in demographic bias. Research question that this study will address is what criteria biologists use when selecting cell sources for early studies and the research objective is to investigate whether there a quantifiable bias in extant literature for cell model studies.
+
+The human genome's major structures recur across the global population regardless of geographical ancestry, self-identified race or sociocultural considerations \cite{xie2001molecular, cooper2003race}. Still, comparatively minor genetic variants generate predictable alterations in the therapeutic impact of some pharmaceutical treatments. Clustering patients by genotype informs the course of drug therapies during treatment of cancer and organ transplant \cite{krynetski2000genetic, higashi2002association}. Because of all of that, the US Food and Drug Administration (FDA) recognized genetic factors sensitize pharmaceutical efficacy and responded by implementing the Demographic Rule in 1998. The rule standardizes race and ethnicity representative during clinical trails based on the target therapeutic population as identified by the drug's sponsor. 
+
+A study published in Science showed that racial and ethnicity diversity serves as an unsubstantiated proxy for broad spectrum representation of genetic variants during clinical trials \cite{haga2003fda}. A retrospective of the FDA's review of clinical trail protocols identified 10\% of the 185 products approved from 1995-1999 disclosed racial differences in the performance of the product on the label \cite{evelyn2001participation}. Moreover, the same study showed that the clinical trials from 1995 - 1999 disclosed the race of participants for 53\% of the nearly 500 k individuals enrolled in  them. Of the 260 k participants whose race was specified, white was most common (88\%), African American was comparable to US population percentage (8\%), and the report classified Hispanics as underrepresented with 1\% of participants.
+
+Demographic bias in clinical trials is an important issue and has already been featured in top notch journals as Science and Nature. However, demographic bias in cell models has not been yet investigated and poses an interesting research question that should be pursued in more details. Not only could results of this study be published in previously mentioned prestigious journals, but this study could also have a broader impact to enhance knowledge of inefficiencies within the drug discovery process and perhaps to raise questions which could lead to extend FDA's Demographic Rule to cell models phase as well. The proposed work aligns with current efforts to vet the efficacy and toxicity of drug candidates early in the discovery process and the intellectual merit of the proposed research lies in expanding the decision criteria for cell sources during the discovery process for an abridged implementation of personalized medicine. 
+
+
+\section{Dataset}
+
+Our dataset consist of 36,056 full text papers that are downloaded from Medline and Scopus databases and were tagged as papers working with \textit{stem cells}. Every paper in our dataset comes with the full text, but also consist of metadata. Using this data we can explore distribution of papers per years (see Figure \ref{dist1}). More than 95 \% of papers in our dataset are published after 2000. We can also see that the dataset we are using does not contain all papers for 2014. 
+
+\begin{figure}[b!]
+\centering
+\includegraphics[width=0.98\columnwidth]{Figures/Figure1.png}
+\caption{\label{dist1}Distribution of papers per year.}
+\end{figure}
+
+If we look at distribution of papers per country of origin of journal where they were publish, then we can conclude that our dataset is bias towards journals from the US as they make more than 50 \% of our dataset (see Figure \ref{dist2}).
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.98\columnwidth]{Figures/Figure2.png}
+\caption{\label{dist2}Distribution of papers per country origin of journal.}
+\end{figure}
+
+\section{Initial results}
+The source of human cells is either (1) primary or (2) cell lines. Primary cells are provided directly by a hospitalized patient. Outside the body, cell lose  functionality and variations from parent to daughter cell increase. Therefore primary cells have a limited longevity and high genetic variability which complicate comparisons with peer studies. Cell lines ease peer-to-peer comparison by offering a phenotypic standard. Cell lines begin as primary cells and are genetically modified for intergenerational stability. The initial donor for most cell lines has been specified in published literature. The donor for primary cell models can vary based on the source and is disclosed at the discretion of the editor at the time of publication. 
+
+These initial demographic characterization focuses on cell lines. Cell line designations provide keywords for text search in both the Web of Science and US Patent and Trademark Office queries. The demographics of the initial donor for most cell lines can be found in peer reviewed literature. 
+
+A database of 255 unique cell line designations and donor demographics is populated from commercial cell line repositories specification sheets and published literature. The cell line designation serves as query keywords to identify the most common cell lines used in the article database. Of the 255 unique cell lines, 137 cell lines were cited in a minimum of 10 publications within the article dataset. 
+
+Figure \ref{pc3} presents the gender and ethnicity of the initial donor for the 137 most popular human cell lines in the the article dataset. Of the most utilized cell lines, male donors are most common, followed by female with a significant number unspecified in the commercial repository's specification sheet. A majority of the donor are either Caucasian or unspecified. Combined, Asian and Black donors comprise 11\% of the available cell lines used a minimum of 10 times in the article dataset of 36,056 Medline or Scopus publications. 
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.98\columnwidth]{Figures/PieChart_3}
+\caption{\label{pc3}Gender and ethnicity of initial donor for 137 most popular human cell lines used in the article dataset.}
+\end{figure}
+
+The donor age for the 137 human cell line is presented in figure \ref{sc1}. The mean donor age is 40.3 +/-25.4 years old. The mean for female and male donor originated cell lines are 37.3 +/-27.0 and 42.5 +/-24.1 years old respectively. Cell lines from asian, black and caucasian donor ages averaged 45.8 +/-10.2, 20.8 +/-14.1, and 41.7 +/-25.8 years old respectively. 
+
+\begin{figure}[h!]
+\centering
+\includegraphics[trim={20cm 20cm 20cm 20cm}, width=0.98\columnwidth]{Figures/ScatterAge_2}
+\caption{\label{sc1}Timeline of cell line introduction from 1951 to present. Cell lines subdivided by donor age, gender and ethnicity.}
+\end{figure}
+
+\newpage
+
+Figure \ref {pc1} presents the usage of cell lines in the article dataset and the usage of cell lines in the article dataset to the US Patent database. Both the article dataset and US patent database most often use cell lines originating from caucasian and female donors.  
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.79\columnwidth]{Figures/PieChart_1}
+\caption{\label{pc1} Comparison of gender and ethnicity representation of cell lines in article dataset and patent query.}
+\end{figure}
+
+Figure \ref{pc2} divides the information presented in figure \ref{pc1} into research topics; including brain, breast cancer, colon/prostate, leukemia/lymphoma, kidney/bladder, and reproduction. The article dataset and patent database identified the same most abundant donor demographics for all research topics. Strong agreement between the article dataset and the US patent database for demographic bias exists in breast cancer and kidney/bladder research. Other topics offered weak agreement for demographic profile of cell lines. 
+
+
+
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.98\columnwidth]{Figures/PieChart_2}
+\caption{\label{pc2}Demographic profile of cell lines in article dataset and patent query in the following research subjects; Brain, Breast Cancer, Colon/Prostate, Leukemia/Lymphoma, Kidney/Bladder, Reproduction.}
+\end{figure}
+
+\bibliographystyle{unsrt}
+\bibliography{refs}
+
+\enddocument

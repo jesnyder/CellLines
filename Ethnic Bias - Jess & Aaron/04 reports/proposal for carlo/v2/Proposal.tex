@@ -1,0 +1,58 @@
+\documentclass[10pt]{article}
+\usepackage{graphicx}
+
+\title{Demographic Inclusiveness in Human Cell Studies}
+
+\begin{document}
+\maketitle
+  
+The research process for preclinical studies typically progresses from cell models, to animal models, and finally human models. During the cell model stage, donors provide a sample of cells to be grown in a lab environment. The possibility of demographic bias in cell culture studies specifically the gender, age and ethnicity of human donors supplying to the cells used for research can have significant consequences for the validity of findings during early stage pharmaceutical studies. However, federal regulations require broad spectrum representation of gender, age and ethnicity during only the final phase of clinical testing, the human model stage. What happens in the first phase of cell models is not regulated and consequently can result in demographic bias. Research question that this study will address is what criteria biologists use when selecting cell sources for early studies and the research objective is to investigate whether there a quantifiable bias in extant literature for cell model studies.
+
+The human genome's major structures recur across the global population regardless of geographical ancestry, self-identified race or sociocultural considerations \cite{xie2001molecular, cooper2003race}. Still, comparatively minor genetic variants generate predictable alterations in the therapeutic impact of some pharmaceutical treatments. Clustering patients by genotype informs the course of drug therapies during treatment of cancer and organ transplant \cite{krynetski2000genetic, higashi2002association}. Because of all of that, the US Food and Drug Administration (FDA) recognized genetic factors sensitize pharmaceutical efficacy and responded by implementing the Demographic Rule in 1998. The rule standardizes race and ethnicity representative during clinical trails based on the target therapeutic population as identified by the drug's sponsor. 
+
+A study published in Science showed that racial and ethnicity diversity serves as an unsubstantiated proxy for broad spectrum representation of genetic variants during clinical trials \cite{haga2003fda}. A retrospective of the FDA's review of clinical trail protocols identified 10\% of the 185 products approved from 1995-1999 disclosed racial differences in the performance of the product on the label \cite{evelyn2001participation}. Moreover, the same study showed that the clinical trials from 1995 - 1999 disclosed the race of participants for 53\% of the nearly 500 k individuals enrolled in  them. Of the 260 k participants whose race was specified, white was most common (88\%), African American was comparable to US population percentage (8\%), and the report classified Hispanics as underrepresented with 1\% of participants.
+
+\newpage 
+
+Demographic bias in clinical trials is an important issue and has already been featured in top notch journals as Science and Nature. However, demographic bias in cell models has not been yet investigated and poses an interesting research question that should be pursued in more details. Not only could results of this study be published in previously mentioned prestigious journals, but this study could also have a broader impact to enhance knowledge of inefficiencies within the drug discovery process and perhaps to raise questions which could lead to extend FDA's Demographic Rule to cell models phase as well. The proposed work aligns with current efforts to vet the efficacy and toxicity of drug candidates early in the discovery process and the intellectual merit of the proposed research lies in expanding the decision criteria for cell sources during the discovery process for an abridged implementation of personalized medicine. 
+
+To accomplish the proposal study the overall goals are defined as follows. First, since there is not a preexisting dataset that we can use in this study, we will explore different databases containing research on cell models and will download the papers of the interest for us. Second, we will query the Directory of Open Access Journals (DOAJ) to generate a set of demographic descriptors of donors whose cells were utilized in peer reviewed studies. Table~\ref{table:DataFields} presents examples of data fields relevant to accomplishing the aims of this study. Third, we will utilize the dataset we created in previous steps to characterize the representation of gender and ethnicity by research topic over the span of available years. Finally, we will conduct a statistical analysis to draw conclusions from the collected data and to prepare a publication to be submitted to Nature.
+
+
+
+\begin{table}[b!]
+\caption{Data fields required to assess demographic representation for human cell studies. Standard ethnicity categories defined by the US FDA Office of Management and Budget.}
+\centering
+\begin{tabular}{c l l }
+\hline 
+ & Term & Sub-categories  \\
+\hline 
+Query & Peer reviewed publication  &  \\
+& In vitro cell study  &  \\
+& Human primary cells &  \\
+\hline
+Collect & Publication metadata &  \\
+ & Donor Gender & Female \\
+ & & Male \\
+ & Donor Ethnicity & Hispanic or Latino   \\
+& & Not Hispanic or Latino  \\
+ & Donor Race & African American\\
+&& American Indian or Alaska Native  \\
+&& Asian \\
+&& Black \\
+&& Native Hawaiian or other Pacific Islander \\ 
+&& White   \\
+ & Donor Age &  (years) \\
+\hline
+\end{tabular}
+\label{table:DataFields}
+\end{table}
+
+
+
+
+\bibliographystyle{unsrt}
+\bibliography{refs}
+
+
+\enddocument

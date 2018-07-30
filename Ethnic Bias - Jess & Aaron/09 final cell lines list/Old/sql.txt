@@ -1,0 +1,3 @@
+SELECT * FROM ivabojic.Jess JOIN ivabojic.cell_list
+ON ivabojic.Jess.Canonical_Name = ivabojic.cell_list.Name 
+LEFT JOIN ivabojic.Iva ON ivabojic.Jess.Canonical_Name = ivabojic.Iva.Name;

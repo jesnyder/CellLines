@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Manuscript_07.aux
+The style file: unsrt.bst
+Database file #1: refs.bib
+Repeated entry---line 211 of file refs.bib
+ : @article{yu2015resource
+ :                        ,
+I'm skipping whatever remains of this entry
+You've used 11 entries,
+            1791 wiz_defined-function locations,
+            521 strings with 6452 characters,
+and the built_in function-call counts, 3344 in all, are:
+= -- 251
+> -- 265
+< -- 0
++ -- 92
+- -- 81
+* -- 321
+:= -- 587
+add.period$ -- 33
+call.type$ -- 11
+change.case$ -- 11
+chr.to.int$ -- 0
+cite$ -- 11
+duplicate$ -- 98
+empty$ -- 258
+format.name$ -- 81
+if$ -- 675
+int.to.chr$ -- 0
+int.to.str$ -- 11
+missing$ -- 11
+newline$ -- 58
+num.names$ -- 11
+pop$ -- 13
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 33
+stack$ -- 0
+substring$ -- 255
+swap$ -- 11
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 30
+width$ -- 13
+write$ -- 122
+(There was 1 error message)

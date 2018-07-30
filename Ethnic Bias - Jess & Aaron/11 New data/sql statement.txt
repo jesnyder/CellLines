@@ -1,0 +1,162 @@
+*** Code for Jess ***
+
+
+1) All papers // 1060 rows & 3886.188 sec
+
+SELECT Gen, Eth, Dis, year, count(*) 
+FROM cell_lines_info, filtered_papers
+WHERE cell_lines_info.Name = filtered_papers.cell_name
+AND Contaminated = 0 
+GROUP BY year, Gen, Eth, Dis;
+
+
+2) Patens
+
+SELECT Gen, Eth, Dis, year, count(*) 
+FROM cell_lines_info, filtered_patents
+WHERE cell_lines_info.Name = filtered_patents.cell_name
+AND Contaminated = 0 
+GROUP BY year, Gen, Eth, Dis;
+
+
+*** Code for Iva ***
+
+
+1) ALL papers
+
+SELECT SUBSTRING(medline.pmid_ext_metadata.date, 1, 4) AS year, 
+ivabojic.cell_lines_info.Contaminated, 
+count(*) FROM ivabojic.cell_lines_info, 
+medline.cell_docs, medline.pmid_ext_metadata WHERE 
+medline.cell_docs.pmid = medline.pmid_ext_metadata.pmid 
+AND ivabojic.cell_lines_info.Canonical_Name = medline.cell_docs.cell_number 
+GROUP BY year, ivabojic.cell_lines_info.Contaminated;
+
+
+2) All patents
+
+SELECT SUBSTRING(medline.patent_docs.date, 1, 4) AS year, 
+ivabojic.cell_lines_info.Contaminated, count(*) 
+FROM ivabojic.cell_lines_info, medline.patent_docs 
+WHERE ivabojic.cell_lines_info.Canonical_Name = medline.patent_docs.cell_number 
+GROUP BY ivabojic.cell_lines_info.Contaminated, year;
+
+
+3) CHECK Papers and Patents by cells
+
+SELECT SUBSTRING(medline.pmid_ext_metadata.date, 1, 4) AS year, 
+ivabojic.cell_lines_info.Canonical_Name, 
+count(*) FROM ivabojic.cell_lines_info, 
+medline.cell_docs, medline.pmid_ext_metadata WHERE 
+medline.cell_docs.pmid = medline.pmid_ext_metadata.pmid 
+AND ivabojic.cell_lines_info.Canonical_Name = medline.cell_docs.cell_number 
+AND ivabojic.cell_lines_info.Contaminated = 1
+GROUP BY year, ivabojic.cell_lines_info.Canonical_Name;
+
+SELECT SUBSTRING(medline.patent_docs.date, 1, 4) AS year, 
+ivabojic.cell_lines_info.Canonical_Name, count(*) 
+FROM ivabojic.cell_lines_info, medline.patent_docs 
+WHERE ivabojic.cell_lines_info.Canonical_Name = medline.patent_docs.cell_number 
+AND ivabojic.cell_lines_info.Contaminated = 1
+GROUP BY ivabojic.cell_lines_info.Canonical_Name, year;
+
+-------------------------------------------------------------------------------------------
+
+(new papers for Iva) --> just unique papers
+
+CREATE TABLE ivabojic.unique_papers AS 
+
+SELECT cell_docs.cell_number AS cell_name, cell_docs.pmid AS pmid, 
+
+SUBSTRING(pmid_ext_metadata.date, 1, 4) AS year
+
+FROM cell_docs, pmid_ext_metadata 
+WHERE cell_docs.pmid = pmid_ext_metadata.pmid
+GROUP BY cell_name, pmid, year
+
+SELECT ivabojic.unique_papers.year
+, ivabojic.cell_lines_info.Contaminated, count(*) 
+
+FROM ivabojic.cell_lines_info, ivabojic.unique_papers
+WHERE ivabojic.cell_lines_info.Canonical_Name = ivabojic.unique_papers.cell_name
+
+GROUP BY year, ivabojic.cell_lines_info.Contaminated;
+
+------------------------------------------------------------------------------------
+filterning papers only marked with 6 relevant mesh terms (including only period before 2014)
+
+CREATE TABLE ivabojic.relevant_papers AS
+SELECT pmid FROM medline.cell_docs, medline.mesh 
+WHERE medline.cell_docs.pmid = medline.mesh.pmid
+AND medline.mesh.descriptorName = 'Cell Line'
+
+INSERT INTO ivabojic.relevant_papers 
+SELECT medline.cell_docs.pmid FROM medline.cell_docs, medline.mesh 
+WHERE medline.cell_docs.pmid = medline.mesh.pmid
+AND medline.mesh.descriptorName = 'Cell Line, Transformed'
+
+INSERT INTO ivabojic.relevant_papers 
+SELECT medline.cell_docs.pmid FROM medline.cell_docs, medline.mesh 
+WHERE medline.cell_docs.pmid = medline.mesh.pmid
+AND medline.mesh.descriptorName =  'Cell Line, Tumor' 
+
+INSERT INTO ivabojic.relevant_papers 
+SELECT medline.cell_docs.pmid FROM medline.cell_docs, medline.mesh 
+WHERE medline.cell_docs.pmid = medline.mesh.pmid
+AND medline.mesh.descriptorName = 'Breast Neoplasms' 
+
+INSERT INTO ivabojic.relevant_papers 
+SELECT medline.cell_docs.pmid FROM medline.cell_docs, medline.mesh 
+WHERE medline.cell_docs.pmid = medline.mesh.pmid
+AND medline.mesh.descriptorName = 'Lung Neoplasms' 
+
+INSERT INTO ivabojic.relevant_papers 
+SELECT medline.cell_docs.pmid FROM medline.cell_docs, medline.mesh 
+WHERE medline.cell_docs.pmid = medline.mesh.pmid
+AND medline.mesh.descriptorName = 'Prostatic Neoplasms'
+
+CREATE TABLE ivabojic.relevant_papers_pmid AS 
+
+SELECT DISTINCT(ivabojic.relevant_papers.pmid) FROM ivabojic.relevant_papers
+
+Include only until 2014, from 2014 until 2016 should be fine (with only 6 terms)
+
+
+%%%%%%%%%%%%%% 7471.579 sec %%%%%%%%%%%%%%%%%%
+
+CREATE TABLE ivabojic.relevant_papers_temp AS
+SELECT ivabojic.unique_papers.cell_name, ivabojic.unique_papers.pmid,
+ivabojic.unique_papers.year
+
+WHERE ivabojic.unique_papers.pmid = ivabojic.relevant_papers_pmid.pmid
+
+SELECT ivabojic.relevant_papers_temp.year
+, ivabojic.cell_lines_info.Contaminated, count(*) 
+
+FROM ivabojic.cell_lines_info, ivabojic.relevant_papers_temp
+WHERE ivabojic.cell_lines_info.Canonical_Name = ivabojic.relevant_papers_temp.cell_name
+
+GROUP BY year, ivabojic.cell_lines_info.Contaminated;
+------------------------------------------------------------------------------------
+
+(new patents for Iva) --> just unique patents
+
+execution time below 1 min (854,472 records)
+
+CREATE TABLE ivabojic.unique_patents AS 
+
+SELECT patent_docs.cell_number AS cell_name, patent_docs.usptoid AS usptoid, 
+
+SUBSTRING(patent_docs.date, 1, 4) AS year
+, COUNT(*) AS count
+FROM patent_docs GROUP BY cell_name, usptoid, year
+
+execution time around 5 min (32 records)
+
+SELECT ivabojic.unique_patents.year
+, ivabojic.cell_lines_info.Contaminated, count(*) 
+
+FROM ivabojic.cell_lines_info, ivabojic.unique_patents
+WHERE ivabojic.cell_lines_info.Name = ivabojic.unique_patents.cell_name
+
+GROUP BY year, ivabojic.cell_lines_info.Contaminated;

@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Manuscript_01.aux
+The style file: unsrt.bst
+Database file #1: refs.bib
+Repeated entry---line 70 of file refs.bib
+ : @article{batina2013variation
+ :                             ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "eid2012current"
+Warning--can't use both volume and number fields in gey1952tissue
+You've used 13 entries,
+            1791 wiz_defined-function locations,
+            544 strings with 7336 characters,
+and the built_in function-call counts, 4036 in all, are:
+= -- 315
+> -- 294
+< -- 2
++ -- 103
+- -- 90
+* -- 380
+:= -- 687
+add.period$ -- 40
+call.type$ -- 13
+change.case$ -- 13
+chr.to.int$ -- 0
+cite$ -- 14
+duplicate$ -- 129
+empty$ -- 322
+format.name$ -- 90
+if$ -- 832
+int.to.chr$ -- 0
+int.to.str$ -- 13
+missing$ -- 13
+newline$ -- 68
+num.names$ -- 13
+pop$ -- 16
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 51
+stack$ -- 0
+substring$ -- 309
+swap$ -- 25
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 38
+width$ -- 15
+write$ -- 147
+(There was 1 error message)

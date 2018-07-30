@@ -1,0 +1,4 @@
+	Cancer Sites	All Races Rate	All Races LCI	All Races UCI	White Rate	White LCI	White UCI	Black Rate	Black LCI	Black UCI	Asian/Pacific Islander Rate	Asian/Pacific Islander LCI	Asian/Pacific Islander UCI	American Indian/Alaska Native Rate	American Indian/Alaska Native LCI	American Indian/Alaska Native UCI	Hispanic Rate	Hispanic LCI	Hispanic UCI
+	All Cancer Sites Combined	483.9	483.0	484.7	485.1	484.2	486.0	499.8	496.8	502.7	315.9	311.7	320.1	320.1	310.2	330.2	394.3	391.1	397.6
+	All Sites (comparable to ICD-O-2)	483.7	482.8	484.5	484.9	484.0	485.9	499.6	496.7	502.6	315.8	311.6	320.0	319.9	310.0	329.9	394.3	391.0	397.5
+	Male and Female Breast	74.2	73.8	74.5	75.2	74.9	75.6	68.2	67.2	69.3	47.7	46.2	49.3	42.0	38.6	45.6	54.2	53.0	55.3
