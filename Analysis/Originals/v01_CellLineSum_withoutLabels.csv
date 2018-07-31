@@ -1,4 +1,3 @@
-"Cancer Type (1=Undefined 2=Breast 3=Male Prostate 4=Lung)","Gender Index (1=Female 2=Male 3=Unspecified)","Ethnicity Index (1=Asian 2=Black 3=Hispanic 4=Native American 5=White 6=Unspecified)","Contaminant Status Index(0=Uncontaminated, 1=Contaminated Derivative Line 3=Nomenclature 4=Parental 5=Unresolved)","Donor Age (Years -10=Unspecified)",Founding Year of Cell Line (-10=Undefined),
 1,3,6,0,-10,-10,0
 1,3,6,1,-10,-10,0
 1,3,6,1,-10,-10,0
